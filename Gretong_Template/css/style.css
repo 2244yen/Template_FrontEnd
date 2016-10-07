@@ -1,0 +1,388 @@
+@font-face {
+    font-family:fontRoboto;
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family:fontDisplay;
+    src: url(../fonts/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family:fontDisplayReg;
+    src: url(../fonts/PlayfairDisplay-Regular.otf);
+}
+body{
+	color:#3f3d3d;
+	font-size: 12px;
+	font-family:fontRoboto; 
+	margin: 0;
+	padding:0;
+	overflow-x: hidden;
+}
+
+.gretong-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 10px;
+  position: relative;
+  padding-right: 10px;
+}
+
+/**
+	*-----Top Header-----
+*/
+
+.top-header{
+	height:30px;
+	background-color: #252525;
+	color: #fff;
+}
+.top-header .top-left{
+	float:left;
+}
+.top-header .top-left ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+.top-header .top-left ul li{
+	display: inline-block;
+}
+.top-header .top-left ul li a{
+	color: #fff;
+	line-height: 30px;
+	padding-right:20px; 
+	text-decoration: none; 
+}
+.top-header .top-right{
+	float: right;
+	text-align: right;
+	line-height: 30px;
+}
+/**
+	*---Header---
+*/
+.header{
+	background-color:#e2eef6;
+	position: relative;
+	width: 100%;
+}
+.header .row{
+	padding: 0;
+}
+.header #gretong-logo{
+	padding:43px 0;
+}
+/*.header ul li{
+	margin-left:15px;
+}
+.header ul li a{
+	padding:10px 15px !important;
+	color:#3f3d3d;
+	font-size: 13px;
+}
+.header ul li a.active,.form-contact span{
+	background-color: #000;
+	color: #fff;
+	border-radius: 0;
+}
+.header .border{
+	border: 1px solid #e5e4e2;
+}*/
+
+.header-right{
+	text-align: center;
+	margin-top: 25px;
+}
+
+.header-right a{
+	padding:10px 20px;
+	color:#3f3d3d;
+	text-decoration: none;
+}
+.header-right .border{
+	border: 1px solid #e5e4e2;
+}
+.header-right a.active,.form-contact span{
+	background-color: #000;
+	color: #fff;
+	border-radius: 0;
+}
+.input-header{
+	height:40px;
+	background-color: #e2eef6;
+	border: #e2eef6 solid 1px;
+	width: 100%;
+	margin-top: 23px;
+}
+.input-header-pos {
+	position: relative;
+}
+.icon-pos {
+    position:absolute;
+    bottom:12px;
+    right:12px;
+    font-size: 20px;
+}
+
+/**
+	*---Menu---
+*/
+
+.gretong-nav{
+	margin: 0;
+	padding:0;
+	width: 100%;
+	z-index: 1000;
+	background: #fff;
+	border-color:#fff;
+	box-shadow: none;
+}
+
+.gretong-menu{
+	background-color: #f5f5f5;
+	padding: 0;
+	top:0;
+}
+.gretong-menu ul{
+	margin:0;
+	padding:0;
+}
+.gretong-menu ul li a{
+	color:#3f3d3d;
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 15px 25px !important;
+}
+.gretong-menu ul li a.active, 
+.gretong-menu ul li a:hover {
+	background-color: #e4e4e4;
+}
+
+/**
+	*-----Product List--------
+*/
+.product{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.product ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.product ul li{
+	float: left;
+	margin: 10px;
+}
+.img-product{
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+}
+.img-product  a{
+	color: #fff;
+}
+.img-product .detail1{
+	position: absolute;
+	bottom:-200px;
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	transition: all .5s  linear 0s;
+	opacity:0;
+	visibility: hidden;
+}
+.img-product .detail1 p, 
+.img-product .detail1 h3{
+	margin-bottom: 25px;
+}
+.img-product .detail1 a{
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 10px 15px;
+	font-size: 14px;
+	margin:35px 0px 65px 0px;
+}
+.img-product .detail1 a:hover{
+	border: 1px solid #e2eef6;
+	color:#e2eef6;
+}
+.img-product .detail1 h3{
+	font-size: 22px;
+	font-family: fontDisplay;
+}
+.img-product .detail2{
+	height:40%;
+	width: 100%;
+	position: absolute;
+	bottom:0;
+	left: -100px;
+	transition: all .5s  ease-out 0s;
+	opacity:0;
+	visibility: hidden;
+	font-family: fontDisplay;
+	font-size: 18px;
+}
+.img-product .detail2 .pleft, .img-product .detail2 .pright{
+	bottom: 23px;
+	position: absolute;
+}
+.img-product .detail2 .pleft{
+	left:20px;
+}
+
+.img-product .detail2 .pright{
+	right:20px;
+}
+
+.img-product:hover > .detail1{
+	visibility: visible;
+	opacity: 1;
+	bottom:0;
+}
+.img-product:hover > .detail2{
+	visibility: visible;
+	opacity: 1;
+	left:0;
+}
+
+/**
+	*------Special offer-------
+*/
+
+.title-offer-box{
+	margin: 50px auto;
+	width: 100%;
+}
+.title-offer{
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid #eae9e8;
+	padding:15px 25px;
+	margin:0 auto;
+}
+.offers{
+	padding:0;
+}
+.offers .offer-view{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.offers .offer-view span{
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	top:50%;
+	left:50%;
+	position: absolute;
+	/*Cach khac
+	margin-left: -29px; */
+    /* margin-top: -17.5px; */
+    /*cach khac: doi toa do theo chieu rong cua span*/
+	transform: translate(-50%, -50%);
+	display: none;
+}
+.offers .offer-view img{
+	width: 100%;
+}
+
+.offers .offer-content{
+	width: 100%;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #eae9e8;	
+}
+.offers .offer-content span{	
+	font-size: 13px;
+	font-family: fontRoboto;
+}
+.offers .offer-content p{
+	font-size: 15px;
+	font-family: fontDisplayReg;
+	margin:25px 0;
+}
+
+.offer-box:hover .offer-content{
+	background-color: #e5e4e2;
+}
+.offer-box:hover .offer-view span{
+	display: block;
+}
+
+.hleft, .hright{
+	width:40%;
+	padding:15px 0;
+} 
+
+
+/**
+ *----Thong tin lien he----
+ */
+
+.form-contact{
+	margin-top: 88px;
+	border: 1px solid #eae9e8;
+	font-size: 14px;
+	padding: 35px 0px !important;
+}
+.form-contact .form-contact-input{
+	border-radius:0;
+	width: 99%;
+}
+.form-contact ul{
+	margin: 0;
+	padding-left: 0;
+}
+
+.icon-social{
+	list-style: none;
+	margin-left: 0px !important;
+}
+.icon-social li{
+	display: inline-block;
+}
+.icon-social li a{
+	text-decoration: none;
+	padding-right: 15px;
+	color: #000;
+}
+/**
+	*------Footer-------
+*/
+.footer{
+	padding:50px 0px;
+	font-size: 13px;
+}
+.footer h4{
+	font-size: 15px;
+	font-weight:500;
+	font-family: fontDisplayReg;
+	margin-bottom: 15px;
+}
+.footer .footer-location{
+	padding:5px 20px;
+	margin-left: 10px;
+	border: 1px solid #e5e4e2;
+	font-family: fontRoboto;
+	font-size: 13px;
+}
+.footer .footer-location:hover{
+	background-color: #e5e4e2;
+}
+.footer a{
+	color:#3f3d3d;
+	text-decoration: none;
+	cursor: pointer;
+}
+.footer .last-footer p{
+	margin-top: 56px;
+	font-size: 13px;
+}
+.footer .last-footer span{
+	padding-right:50px;
+}

@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/*
+    Created on : Nov 1, 2013, 2:54:26 PM
+    Author     : Archie
+*/
+
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    /***
+	 * Index
+	 */
+    .gretong-container{
+        width: 960px;
+        margin: 0 auto;
+     }
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /***
+	 * Index
+	 */
+     .gretong-container{
+        width:750px;
+        margin: 0 auto;
+     }
+     .gretong-container .product .img-size1{
+        width:355px;
+        height: auto;
+    }
+    .gretong-container .product .img-size2{
+        width:740px;
+        height: auto;
+    }   
+     .gretong-container .product .img-size3{
+        width:355px;
+        height:250px;
+    }
+    .gretong-container img{
+        width: 100%;
+    }
+    .hleft, .hright{
+        width:38.5%;
+    }
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /***
+	 * Index
+	 */
+    .gretong-container{
+        width:90%;
+        margin: 0 auto;
+    }
+    .header-right  .header-right-item{
+        padding-bottom:20px;
+        width:100%;
+        text-align: left;
+    }
+    .gretong-nav .navbar-collapse li a{
+        padding-left: 50px;
+    }
+    .gretong-container .product  li{
+        width: 100%;
+        padding-right:25px;
+    }
+    .gretong-container .product img{
+        width: 100%;
+    }
+    .gretong-container .product .img-size2{
+        height: 250px;
+    }
+    .offers{
+        max-width: 100%;
+        margin:0 auto;
+    }
+
+    .hleft, .hright{
+        width:30%;
+    }
+    
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    /***
+	 * Index
+	 */
+     .top-header .top-right{
+        display: none;
+    }
+    .gretong-container{
+        width:100%;
+        margin: 0 auto;
+    }
+    .header #gretong-logo{
+        width:100px;
+        height:100px;
+    }
+    .header-right  .header-right-item{
+        padding-bottom:20px;
+        width:100%;
+        text-align: left;
+    }
+    .gretong-nav .navbar-collapse li a{
+        padding-left: 50px;
+    }
+    /*--Product list--*/
+    .gretong-container .product li{
+        width:100%;
+        margin:0 auto;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .gretong-container .product img{
+        width:100%;
+        height:auto;
+    }
+    .gretong-container .product .img-size2{
+       display: none;
+    }
+    .product .img-product .detail1{
+        height:75%;
+    }
+    .hleft, .hright{
+        width:0;
+    }
+    .footer .footer-location{
+        display: none;
+    }
+}
