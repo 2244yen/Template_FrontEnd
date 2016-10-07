@@ -37,10 +37,6 @@ and open the template in the editor.
 		margin:0 auto;
 	}
 
-	.business-bg-img .nivoSlider, 
-	.business-bg-img .nivo-box{
-		max-height: 220px;
-	}
 	.theme-light .nivo-controlNav a {
 		display: none;
 	}

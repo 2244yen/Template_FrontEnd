@@ -35,7 +35,7 @@ Supports Thumbs: true
 	position: relative;
 	z-index: 10;
 	float: right;
-	margin-top:-300px;
+	margin: 0 2px;
 }
 .theme-light .nivo-controlNav a {
 	display:inline-block;
@@ -103,22 +103,29 @@ Supports Thumbs: true
 	height: auto;
 }
 
-
+.business-bg-img{
+	height: 315px !important;	
+}
 .business-bg-img .theme-light.slider-wrapper {
+	background: transparent;
 	background-image: url("../images/bg-slider.png");
     margin-top:44px;
     padding:0 15px 0 15px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	/*border-bottom: 20px solid rgba(190,194,199,0.3);
-	border-left:  10px solid transparent;
-	border-right: 10px solid transparent;*/
-}
-.business-bg-img .nivoSlider, 
-.business-bg-img .nivo-box,
-.business-bg-img .nivo-slice{
-	height: 260px;
-}
-.business-bg-img .nivoSlider .nivo-main-image{
 	height: 100%;
-} 
+}
+.business-bg-img .nivoSlider, .business-bg-img .nivo-box,
+.business-bg-img .nivo-slice {
+	height: 258px !important;
+}
+
+.business-bg-img .nivoSlider img {
+	height: 100% !important;
+}
+.business-bg-img .nivo-controlNav {
+	margin-top:-300px !important; 
+}
+
+
+

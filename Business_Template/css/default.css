@@ -130,7 +130,6 @@ a{
 .business-working{
 	background-color: #fff;
 	padding: 44px 40px 35px 40px;
-	box-shadow: 0px 8px 6px -8px #cccccc;
 }
 .business-working .business-working-content h3{
 	font-size: 25px;
@@ -154,6 +153,9 @@ a{
 footer{
 	background-color: #ededed;
 	padding: 25px 40px 25px 40px;
+	-moz-box-shadow: inset 0px 2px 5px #bababa;
+	-webkit-box-shadow: inset 0px 2px 5px #bababa;
+	box-shadow: inset 0px 2px 5px #bababa;
 }
 footer h3{
 	padding-top:30px;

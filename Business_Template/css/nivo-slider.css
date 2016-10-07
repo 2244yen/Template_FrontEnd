@@ -56,7 +56,7 @@
 	z-index:5;
 	overflow:hidden;
 }
-.nivo-box img { display:block;}
+.nivo-box img { display:block; }
 
 /* Caption styles */
 .nivo-caption {
