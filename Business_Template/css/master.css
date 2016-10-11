@@ -122,4 +122,92 @@ footer .last-footer{
 	padding-top: 25px;
 }
 
+/**
+	-----Responsive-----
+*/
 
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    /***
+	 * Index
+	 */
+	.business-container{
+		width:90%;
+		margin:0 auto;
+	}
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /***
+	 * Index
+	 */
+	.business-container{
+		width: 93%;
+		margin:0 auto;
+	}
+	.business-navbar .business-logo{
+		width:100%;
+		padding-top: 20px;
+	}
+	.business-navbar .navbar-header{
+		width: 150px;
+	}
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /***
+	 * Index
+	 */
+
+	#container{
+		margin:0;
+	}
+	.business-container{
+		width: 100%;
+		margin:0 auto;
+	}
+	.business-navbar{
+		padding-left: 15px;
+	}
+	
+	footer{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    /***
+	 * Index
+	 */
+
+	#container{
+		margin:0;
+	}	
+	.business-container{
+		width: 100%;
+		margin:0 auto;
+	}
+	.business-navbar{
+		padding-left: 15px;
+	}
+	footer{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

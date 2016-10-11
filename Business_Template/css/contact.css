@@ -63,3 +63,76 @@
 .contact-info .contact-info-item img{
 	margin-right: 15px;
 }
+
+/**
+	--------Responsive---------
+*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    /**
+    	---------Contacts------------
+    */
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	/**
+    	---------Contacts------------
+    */
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/**
+    	---------Contacts------------
+    */
+
+	.contact-wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.contact-slider .contact-slider-content{
+		text-align: center;
+		padding: 30px 0;
+	}
+	.contact-slider .contact-slider-content h2{
+		margin-bottom: 0;
+	}
+	.contact-wrapper .contact-form{
+		width: 100%;
+	}
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	/**
+    	---------Contacts------------
+    */
+
+	.contact-wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.contact-slider .contact-slider-content{
+		text-align: center;
+		padding: 40px 0;
+	}
+	.contact-slider .contact-slider-content p{
+		padding-top: 20px;
+	}
+	.contact-wrapper .contact-form{
+		width: 100%;
+	}
+}

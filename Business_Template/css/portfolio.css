@@ -36,7 +36,7 @@
 }
 
 /**
-	-----Porfolio Product
+	-----Porfolio Product----
 */
 .portfolio-product-wrapper{
 	padding: 10px 40px 5px 40px;
@@ -49,9 +49,12 @@
 .portfolio-product .portfolio-product-content p{
 	padding-top: 25px;
 }
-.portfolio-product .portfolio-product-content span{
+.portfolio-product .portfolio-product-content a{
 	font-size: 15px;
 	font-weight: bold;
+	color: #4f4f4f;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .business-pagination{
@@ -79,4 +82,95 @@
 }
 .business-pagination ul li a.active{
 	color: #0e0e0e;	
+}
+
+/**
+ --------Responsive-------
+*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+	/***
+    	* Portfolio
+    */
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	/***
+    	* Portfolio
+    */
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/**
+    	---------Portfolio------------
+    */	
+	.portfolio-product-wrapper,
+	.business-pagination, 
+	.portfolio-slider .portfolio-slider-content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.portfolio-slider .portfolio-slider-content h2{
+		margin: 30px 0 0 0;
+	}
+	.portfolio-slider .portfolio-slider-content .portfolio-menu{
+		float: left;
+	}
+	.portfolio-slider .portfolio-slider-content .portfolio-menu li a{
+		padding-left: 0;
+		padding-right: 20px;
+	}
+	.portfolio-product .portfolio-product-content{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.portfolio-product .portfolio-product-content img{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	/**
+    	---------Portfolio------------
+    */	
+	.portfolio-product-wrapper,
+	.business-pagination, 
+	.portfolio-slider .portfolio-slider-content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.portfolio-slider .portfolio-slider-content h2{
+		margin: 30px 0 0 0;
+	}
+	.portfolio-slider .portfolio-slider-content .portfolio-menu{
+		float: left;
+	}
+	.portfolio-slider .portfolio-slider-content .portfolio-menu li a{
+		padding-left: 0;
+		padding-right: 20px;
+	}
+	.portfolio-product .portfolio-product-content{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.portfolio-product .portfolio-product-content img{
+		width: 100%;
+		margin: 0 auto;
+	}
 }

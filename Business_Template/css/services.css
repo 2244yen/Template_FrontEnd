@@ -18,7 +18,7 @@
 }
 
 /**
-	----services product-----
+	----Services Products-----
 */
 .services-product{
 	padding:30px 40px 40px 40px;
@@ -73,4 +73,115 @@
 	float: left;
 	width: 90%;
 	padding-left: 20px;
+}
+
+
+/**
+	-------Responsive------
+*/
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {  
+	/***
+    	* Services
+    */
+    .services-product .services-product-content h3, .benefit h3{
+    	font-size: 20px;
+    }
+    .services-product .services-product-content span{
+		font-size: 12px;
+		color: #575757;
+	}
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /***
+    	* Services
+    */
+    .services-slider .services-slider-content p{
+		padding-left: 0 !important;
+	}
+
+    .services-product .services-product-content h3, .benefit h3 {
+    	font-size: 15px;
+    }
+    .services-product .services-product-content span{
+		font-size: 11px;
+		color: #575757;
+	}
+	.services-product .services-product-content .btn-right{
+		float: left;
+	}
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/**
+   		----Services----
+    */
+    .services-slider{
+   		padding: 0 15px 0 15px;
+    }
+    .services-slider .services-slider-content{
+		text-align: center;
+		margin: 0 auto;
+		padding: 50px auto;
+    }
+    .services-slider .services-slider-content h2{
+		margin: 34px 0 0 0;
+	}
+	.services-product, .benefit{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.services-product .services-product-content{
+		text-align: center;
+		margin: 20px auto;
+	}
+	.services-product .services-product-content img{
+		width:70%;
+		margin: 20px auto;
+	}
+	.services-product .services-product-content .services-btn{
+		width: 80%;
+	}
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+   	/**
+   		----Services----
+   	*/
+   	.services-slider .services-slider-content{
+		text-align: center;
+    }
+    .services-slider .services-slider-content h2{
+		margin: 34px 0 0 0;
+	}
+	.services-product, .benefit{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.services-product .services-product-content{
+		text-align: center;
+		margin: 20px auto;
+	}
+	.services-product .services-product-content img{
+		margin: 20px auto;
+	}
+	.services-product .services-product-content .services-btn{
+		width: 90%;
+	}
 }

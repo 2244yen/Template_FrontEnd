@@ -79,7 +79,6 @@ and open the template in the editor.
 	}
 	.services-product .services-product-content .btn-right{
 		float: left;
-		margin-top:10px;
 	}
 
 	/***
@@ -135,11 +134,25 @@ and open the template in the editor.
 		padding-right: 15px;
 	}
 
+	.business-working .business-working-content
+	{
+		width: 100%;
+		text-align: center;
+		margin:auto;
+	}
+	.business-working .business-working-content img{
+		margin:20px auto;
+	}
+
 	/**
    		----Services----
     */
     .services-slider{
    		padding: 0 15px 0 15px;
+    }
+    .services-slider .services-slider-content{
+		text-align: center;
+		margin: 0 auto;
     }
     .services-slider .services-slider-content p{
 		padding-left: 0 !important;
@@ -148,6 +161,17 @@ and open the template in the editor.
 	.services-product, .benefit{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.services-product .services-product-content{
+		text-align: center;
+		margin: 20px auto;
+	}
+	.services-product .services-product-content img{
+		width:70%;
+		margin: 20px auto;
+	}
+	.services-product .services-product-content .services-btn{
+		width: 80%;
 	}
 
 	/**
@@ -219,20 +243,32 @@ and open the template in the editor.
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-
+	.business-working .business-working-content, 
+	.business-working .business-working-content img{
+		width: 100%;
+		text-align: center;
+		margin: 20px auto;
+	}
    	/**
    		----Services----
    	*/
-   	.services-slider{
-   		padding: 0 15px 0 15px;
-   	}
-   	.services-slider .services-slider-content p{
-		padding-left: 0 !important;
-		margin: 0 0 20px 0;
-	}
+   	.services-slider .services-slider-content{
+		text-align: center;
+		
+    }
 	.services-product, .benefit{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.services-product .services-product-content{
+		text-align: center;
+		margin: 20px auto;
+	}
+	.services-product .services-product-content img{
+		margin: 20px auto;
+	}
+	.services-product .services-product-content .services-btn{
+		width: 90%;
 	}
 
 	/**
