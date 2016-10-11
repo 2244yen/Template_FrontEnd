@@ -1,0 +1,125 @@
+/**
+	------Common Styles------
+*/
+@font-face{
+	font-family: nervis;
+	src: url(../fonts/nevis.ttf);
+}
+body{
+	color: #4f4f4f;
+	font-size: 12px;
+	font-family: Arial;
+	background-color: #0e0e0e;
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+
+*{
+	box-sizing: border-box;
+}
+a{
+	color: #0f4db6;
+}
+
+#container{
+	margin: 42px 0;
+}
+.business-container{	
+	max-width: 960px;
+	margin:0 auto;
+}
+.business-bg-slider{
+	width: 100%;
+	background-image: url("../images/business-home.png");
+	background-repeat: no-repeat;
+	max-height: 336px;
+}
+.pad-top-20{
+	padding-top: 20px;
+}
+.btn-business{
+	font-family: nervis;
+	text-transform: uppercase;
+	color: #6c6c6c;
+}
+
+/**
+	---Navigation---
+*/
+
+.business-navbar{
+	background-color: #fff;
+	margin-bottom: 0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	padding-left: 40px;
+}
+.business-navbar .navbar-brand{
+	padding:0;
+}
+.business-navbar .business-logo{
+	margin: 30px 0;
+}
+.business-navbar .business-collapse{
+	margin-top: 50px;
+}
+.business-navbar .business-collapse ul li a{
+	padding:8px 15px;
+	margin-right: 15px;
+	color: #808080;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.business-navbar .business-collapse ul li a.active,
+.business-navbar .business-collapse ul li a:hover{
+	border-radius:3px;
+	background-image: url("../images/menu-bg.jpg");
+	color: #fff;
+	border:1px solid #00224b;
+	box-sizing: border-box;
+}
+
+/**
+	-----Footer-----
+*/
+footer{
+	background-color: #ededed;
+	padding: 25px 40px 25px 40px;
+	-moz-box-shadow: inset 0px 2px 5px #bababa;
+	-webkit-box-shadow: inset 0px 2px 5px #bababa;
+	box-shadow: inset 0px 2px 5px #bababa;
+}
+footer h3{
+	padding-top:30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+footer .footer-content{
+	padding-bottom:10px;
+	padding-top:30px;
+}
+footer .footer-content .footer-line{
+	line-height: 1.8em;
+}
+
+footer .footer-link a{
+	color:#4f4f4f;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+footer img{
+	padding-right: 20px; 
+}
+
+footer .last-footer{
+	border-top: 1px solid #ccc;
+	padding-top: 25px;
+}
+
+

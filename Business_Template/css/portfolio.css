@@ -1,0 +1,82 @@
+/**
+	----Porfolio Page----
+*/
+.portfolio-slider .portfolio-slider-content{
+	padding: 0 30px 0 40px;
+}
+
+.portfolio-slider .portfolio-slider-content h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	margin: 30px 0 30px 0;
+}
+	
+.portfolio-slider .portfolio-slider-content .portfolio-menu {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	padding: 40px 0 30px 0;
+}
+.portfolio-slider .portfolio-slider-content .portfolio-menu li{
+	display: inline-block;
+}
+
+.portfolio-slider .portfolio-slider-content .portfolio-menu li a{
+	color: #93daff;
+	font-size: 13px;
+	padding-left: 25px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.portfolio-slider .portfolio-slider-content .portfolio-menu li a.active{
+	color: #fff;
+}
+
+/**
+	-----Porfolio Product
+*/
+.portfolio-product-wrapper{
+	padding: 10px 40px 5px 40px;
+	background-color: #fff;
+}
+.portfolio-product{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.portfolio-product .portfolio-product-content p{
+	padding-top: 25px;
+}
+.portfolio-product .portfolio-product-content span{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.business-pagination{
+	background-image: url(../images/bg-pagination.jpg);
+	background-repeat: repeat;
+	padding: 20px 0 30px 40px;
+}
+
+.business-pagination ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.business-pagination ul li{	
+	padding-left: 10px;
+	display: inline-block;
+}
+.business-pagination ul li a {
+	color: #0f4db6;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.business-pagination ul li a.active{
+	color: #0e0e0e;	
+}

@@ -22,6 +22,20 @@ and open the template in the editor.
 		width:90%;
 		margin:0 auto;
 	}
+	/***
+    	* Services
+    */
+    .services-product .services-product-content h3, .benefit h3{
+    	font-size: 20px;
+    }
+    .services-product .services-product-content span{
+		font-size: 12px;
+		color: #575757;
+	}
+
+	/***
+    	* Portfolio
+    */
 }
 
 
@@ -37,7 +51,7 @@ and open the template in the editor.
 		margin:0 auto;
 	}
 
-	.theme-light .nivo-controlNav a {
+	.business-bg-img .theme-light .nivo-controlNav a {
 		display: none;
 	}
 
@@ -49,6 +63,28 @@ and open the template in the editor.
 		width: 90%;
 	}
     
+    /***
+    	* Services
+    */
+    .services-slider .services-slider-content p{
+		padding-left: 0 !important;
+	}
+
+    .services-product .services-product-content h3, .benefit h3 {
+    	font-size: 15px;
+    }
+    .services-product .services-product-content span{
+		font-size: 11px;
+		color: #575757;
+	}
+	.services-product .services-product-content .btn-right{
+		float: left;
+		margin-top:10px;
+	}
+
+	/***
+    	* Portfolio
+    */
 }
 
 
@@ -59,31 +95,78 @@ and open the template in the editor.
     /***
 	 * Index
 	 */
+
+	#container{
+		margin:0;
+	}
 	.business-container{
-		widows: 95%;
+		width: 100%;
 		margin:0 auto;
 	}
-
+	.business-navbar{
+		padding-left: 15px;
+	}
     .business-bg-slider .slider-content{
-		margin:40px 0px 60px 40px;
+		margin: 40px 15px 40px 15px;
 	}
 	.business-bg-slider .slider-content p{
-		font-size: 20px;
+		font-size: 22px;
 		margin-bottom: 30px;
 		line-height: 1.35em;
 		text-shadow: 3px 3px 2px rgba(51,102,204,1);
 	}
 	.business-bg-slider .slider-content span{
-		font-size: 27px;
+		font-size: 28px;
 		font-weight: bold;
 		text-transform: uppercase;
 	}
     .business-bg-slider .slider-content a{
-		font-size: 15px;
+		font-size: 18px;
 		padding: 10px 15px;
 	}
 	.slider-wrapper{
 		display: none;
+	}
+	.business-bg-img{
+		height: 0;
+	}
+	.business-contact, .business-working, footer{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/**
+   		----Services----
+    */
+    .services-slider{
+   		padding: 0 15px 0 15px;
+    }
+    .services-slider .services-slider-content p{
+		padding-left: 0 !important;
+		margin: 0 0 20px 0;
+	}
+	.services-product, .benefit{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/**
+    	---------Portfolio------------
+    */	
+	.portfolio-product-wrapper,
+	.business-pagination, 
+	.portfolio-slider .portfolio-slider-content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/**
+    	---------Contacts------------
+    */
+
+	.contact-wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 }
@@ -96,16 +179,23 @@ and open the template in the editor.
     /***
 	 * Index
 	 */
-	 .business-container{
+
+	#container{
+		margin:0;
+	}	
+	.business-container{
 		width: 100%;
 		margin:0 auto;
 	}
+	.business-navbar{
+		padding-left: 15px;
+	}
 
-	 .business-bg-slider .slider-content{
-		margin:40px;
+	.business-bg-slider .slider-content{
+		margin: 40px 15px 40px 15px;
 	}
 	.business-bg-slider .slider-content p{
-		font-size: 15px;
+		font-size: 18px;
 		margin-bottom: 30px;
 		line-height: 1.35em;
 		text-shadow: 3px 3px 2px rgba(51,102,204,1);
@@ -122,5 +212,52 @@ and open the template in the editor.
 	.slider-wrapper{
 		display: none;
 	}
-   
+	.business-bg-img{
+		height: 0;
+	}
+	.business-contact, .business-working, footer{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+   	/**
+   		----Services----
+   	*/
+   	.services-slider{
+   		padding: 0 15px 0 15px;
+   	}
+   	.services-slider .services-slider-content p{
+		padding-left: 0 !important;
+		margin: 0 0 20px 0;
+	}
+	.services-product, .benefit{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/**
+    	---------Portfolio------------
+    */	
+	.portfolio-product-wrapper,
+	.business-pagination, 
+	.portfolio-slider .portfolio-slider-content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/**
+    	---------Contacts------------
+    */
+
+	.contact-wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.contact-slider .contact-slider-content p, 
+	.contact-slider .contact-slider-content h2{
+		margin:0;
+	}
+	.contact-wrapper .contact-form{
+		width: 100%;
+	}
 }
