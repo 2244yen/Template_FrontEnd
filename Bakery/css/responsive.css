@@ -1,0 +1,356 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/*
+    Created on : Nov 1, 2013, 2:54:26 PM
+    Author     : Archie
+*/
+
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    /***
+	 * Index
+	 */
+    .bakery-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left{
+        margin-left: 50px;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left .fade-li{
+        display: none;
+    }
+    .bakery-tasty .bakery-tasty-slider{
+        padding: 0;
+        margin: 100px 0 100px 0;
+        width: 95%;
+    }
+    .bakery-sandwitch-content:first-child{
+        margin-top: 50px;
+    }
+    .bakery-sandwitch .bakery-sandwitch-right {
+        padding: 0 0 185px 85px;
+    }
+    footer ul li{
+        display: inline-block;
+        padding: 15px;
+    }
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /***
+	 * Index
+	 */
+    .bakery-container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left{
+        margin-left: 50px !important;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left .fade-li{
+        display: none;
+    }
+    .bakery-art-cake .bakery-art-cake-border{
+        top: -25px;
+    }
+    .bakery-tasty .bakery-tasty-slider {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .bakery-tasty .bakery-tasty-slider .tasty-sub-info {
+        padding: 20px 50px;
+        top: -170px;
+        right: 20px;
+    }
+    .bakery-sandwitch-content:first-child{
+        margin-top: 50px;
+    }
+    .bakery-sandwitch .bakery-sandwitch-right {
+        padding: 0 15px 150px 15px;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item{
+        padding: 25px 70px 25px 70px;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item .time-number{
+        margin-bottom: -15px;
+    }
+    .bakery-sandwitch-time-item:last-child .time-number{
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    footer .fade-li{
+        display: none;
+    }
+    footer ul{
+        width: 38%;
+    }
+    footer ul li{
+        padding: 15px 5px;
+    }
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /***
+	 * Index
+	 */
+    .bakery-container{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left{
+        margin-left: 0 !important;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left .fade-li{
+        display: none;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left li{
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .bakery-navbar .navbar-collapse .navbar-right li{
+        display: inline-block;
+    }
+    .header .bakery-slogan{
+        padding: 100px 0 100px 0;
+    }
+    .header .bakery-slogan span{
+        font-size: 70px;
+    }
+    .header .bakery-slogan p{
+        font-size: 20px;
+    }
+    .bakery-art-cake .bakery-art-cake-border{
+        top: -25px;
+    }
+    .bakery-art-cake .bakery-art-cake-right {
+        margin: 50px 0;
+    }
+    .bakery-tasty .bakery-tasty-slider{
+        margin: 100px 15px 15px 15px;
+    }
+    .bakery-tasty .bakery-tasty-slider .main-img{
+        display: none;
+    }
+    .bakery-tasty .bakery-tasty-slider .tasty-slider-content{
+        background-image: url(../images/mobile-bg.jpg);
+        background-repeat: repeat-x;
+        height: 100%;
+        width: 90%;
+        left: 0;
+        bottom: 0;
+    }
+    .tasty-slider-content .tasty-slider-content-wrapper{
+        padding-right: 5%;
+    }
+    .bakery-tasty .bakery-tasty-slider .tasty-sub-info{
+        right: 0;
+        top: -100px;
+    }
+    .bakery-breakfast .bakery-breakfast-right{
+        padding: 15px 0;
+    }
+    .bakery-breakfast .bakery-breakfast-right .breakfast-right-item{
+        float: left;
+        margin-left: 15%;
+        margin-right: 15%;    
+    }
+    .bakery-breakfast .bakery-breakfast-right .breakfast-content .right-item-title {
+        font-size: 30px;
+    }
+    .bakery-sandwitch .bakery-sandwitch-left {
+        margin-bottom: 0;
+    }
+    .bakery-sandwitch .bakery-sandwitch-right {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    .bakery-sandwitch-content:first-child{
+        margin-top: 50px;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item span{
+        display: inline-block;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item .time-number{
+        font-size: 40px;
+    }
+    footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    footer .fade-li{
+        display: none;
+    }
+    footer ul{
+        width: 30%;
+    }
+    footer .logo-footer{
+        width: 10%;
+        padding: 0 auto;
+    }
+    footer ul li{
+        display: block;
+        padding: 5px 10px 10px 5px;
+    }
+}
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    /***
+	 * Index
+	 */
+    /**
+        Header
+    */
+    .bakery-container{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left{
+        margin-left: 0 !important;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left .fade-li{
+        display: none;
+    }
+    .bakery-navbar .navbar-collapse .bakery-left li{
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .bakery-navbar .navbar-collapse .navbar-right li{
+        display: inline-block;
+    }
+    .header .bakery-slogan{
+        padding: 100px 0 100px 0;
+    }
+    .header .bakery-slogan span{
+        font-size: 60px;
+    }
+    .header .bakery-slogan p{
+        font-size: 18px;
+    }
+    /**
+        Art of cake
+    */
+    .bakery-art-cake .bakery-art-cake-border{
+        top: -20px;
+    }
+    .bakery-art-cake .bakery-art-cake-right {
+        margin: 0;
+    }
+    .bakery-art-cake .bakery-art-cake-left .bakery-chef .name-chef{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    /**
+        Tasty Pancakes
+    */
+    .bakery-tasty .bakery-tasty-slider{
+        margin: 150px 15px 100px 15px;
+    }
+    .bakery-tasty .bakery-tasty-slider .main-img{
+        display: none;
+    }
+    .bakery-tasty .bakery-tasty-slider .tasty-slider-content{
+        background-image: url(../images/mobile-bg.jpg);
+        background-repeat: repeat-x;
+        height: 100%;
+        width: 90%;
+        left: 0;
+        bottom: 0;
+    }
+    .bakery-tasty .bakery-tasty-slider .tasty-slider-content .tasty-slider-content-wrapper{
+        padding: 85px 15px 0 15px;
+    }
+    .bakery-tasty .bakery-tasty-slider .tasty-slider-content .tasty-slider-content-wrapper .main-title{
+        font-size: 36px;
+    }
+    .bakery-tasty .bakery-tasty-slider .tasty-sub-info{
+        right: 0;
+        top: -100px;
+    }
+    .bakery-tasty .bakery-tasty-slider .tasty-sub-info .info-time{
+        font-size: 40px;
+    }
+    .bakery-breakfast .bakery-breakfast-left .breakfast-title,
+    .bakery-sandwitch .bakery-sandwitch-title h3,
+    .bakery-art-cake .bakery-art-cake-left h3{
+        font-size: 40px;
+    }
+    .bakery-breakfast .bakery-breakfast-right .breakfast-content .right-item-title {
+        font-size: 30px;
+    }
+    .bakery-breakfast .bakery-breakfast-left h4{
+        font-size: 26px;
+    }
+    .bakery-sandwitch .bakery-sandwitch-left .bakery-sandwitch-content .ingredient-title{
+        font-size: 26px;
+    }
+    .bakery-sandwitch .bakery-sandwitch-left {
+        margin-bottom: 0;
+    }
+    .bakery-sandwitch .bakery-sandwitch-right {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .bakery-sandwitch-content:first-child{
+        margin-top: 50px;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item span{
+        display: inline-block;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item .time-title,
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item .time-mins{
+        font-size: 14px;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item .time-number{
+        font-size: 30px;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item{
+        padding: 25px 40px;
+    }
+    .subs{
+        color: #a47d5e;
+        font-size: 12px;
+    }
+    footer{
+        padding: 0 15px 0 15px;
+        margin-bottom: 30px;
+    }
+    footer .fade-li{
+        display: none;
+    }
+    footer ul{
+        width: 50%;
+    }
+    footer .logo-footer{
+        display: none;
+    }
+    footer ul li{
+        display: block;
+        padding: 5px 10px 10px 5px;
+    }
+}

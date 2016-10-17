@@ -1,0 +1,93 @@
+/**
+	----Common Style---
+*/
+@font-face{
+	font-family: alegreya;
+	src: url("../fonts/Alegreya-Regular.otf");
+}
+@font-face{
+	font-family: alegreyaBold;
+	src: url("../fonts/Alegreya-Bold.otf");
+}
+@font-face{
+	font-family: scriptina;
+	src: url("../fonts/SCRIPTIN.ttf");
+}
+@font-face{
+	font-family: playfairBold;
+	src: url("../fonts/PlayfairDisplay-Bold.otf");
+}
+@font-face{
+	font-family: ProximaNova;
+	src: url("../fonts/Mark Simonson - Proxima Nova Regular.otf");
+}
+body{
+	color: #56534c;
+	background-color: #f3f1e9;
+	font-family: alegreya;
+	overflow-x: hidden;
+}
+h2, h3, h4 {
+	font-family: alegreyaBold;
+	padding: 0;
+	margin: 0;
+}
+p{
+	font-size: 14px;
+	font-family: ProximaNova;
+}
+span{
+	padding: 0;
+	margin: 0;
+}
+a{
+	cursor: pointer;
+	text-decoration: none !important;
+}
+.bakery-container{
+	max-width: 1260px;
+	margin: 0 auto;
+}
+.title{
+	font-family: alegreyaBold;
+}
+.subs{
+	color: #a47d5e;
+	font-size: 14px;
+}
+/**
+	-----Footer-----
+*/
+footer{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+footer ul{
+	margin: 0 auto;
+	border-top: 1px solid #bfbbb7;
+	border-bottom: 1px solid #bfbbb7;
+	display: inline-block;
+	width: 43%;
+}
+footer ul li{
+	display: inline-block;
+	padding: 30px;
+}
+footer ul li a{
+	text-transform: uppercase;
+	color: #56534c;
+	font-size: 14px;
+}
+footer .logo-footer{
+	font-size: 30px;
+	font-family: scriptina;
+	padding: 30px;
+	width: 10%;
+}
+footer .footer-right{
+	float: right;
+}
+
+
+
