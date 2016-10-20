@@ -36,8 +36,8 @@ and open the template in the editor.
     .bakery-sandwitch-content:first-child{
         margin-top: 50px;
     }
-    .bakery-sandwitch .bakery-sandwitch-right {
-        padding: 0 0 185px 85px;
+    footer ul{
+        width: 41%;
     }
     footer ul li{
         display: inline-block;
@@ -66,6 +66,10 @@ and open the template in the editor.
     .bakery-art-cake .bakery-art-cake-border{
         top: -25px;
     }
+    .bakery-art-cake .bakery-art-cake-left .bakery-chef .name-chef{
+        font-size: 22px;
+        padding: 15px;
+    }
     .bakery-tasty .bakery-tasty-slider {
         margin-left: 15px;
         margin-right: 15px;
@@ -75,11 +79,17 @@ and open the template in the editor.
         top: -170px;
         right: 20px;
     }
+    .bakery-tasty .bakery-tasty-slider .tasty-sub-info .info-time {
+        font-size: 80px;
+    }
     .bakery-sandwitch-content:first-child{
         margin-top: 50px;
     }
     .bakery-sandwitch .bakery-sandwitch-right {
         padding: 0 15px 150px 15px;
+    }
+    .bakery-breakfast .bakery-breakfast-right .breakfast-content .right-item-title {
+        font-size: 36px;
     }
     .bakery-sandwitch-right-item .bakery-sandwitch-time-item{
         padding: 25px 70px 25px 70px;
@@ -141,7 +151,11 @@ and open the template in the editor.
         top: -25px;
     }
     .bakery-art-cake .bakery-art-cake-right {
-        margin: 50px 0;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+    .bakery-art-cake .bakery-art-cake-left {
+        margin-bottom: 50px;
     }
     .bakery-tasty .bakery-tasty-slider{
         margin: 100px 15px 15px 15px;
@@ -219,9 +233,6 @@ and open the template in the editor.
     /***
 	 * Index
 	 */
-    /**
-        Header
-    */
     .bakery-container{
         width: 100%;
         padding-left: 15px;
@@ -257,11 +268,24 @@ and open the template in the editor.
     }
     .bakery-art-cake .bakery-art-cake-right {
         margin: 0;
+        margin-bottom: 100px;
+    }
+    .bakery-art-cake .bakery-art-cake-left {
+        margin-bottom: 50px;
     }
     .bakery-art-cake .bakery-art-cake-left .bakery-chef .name-chef{
-        display: block;
-        width: 50%;
-        margin: 0 auto;
+        font-size: 14px;
+        border: none;
+        padding: 0 10px;
+    }
+    .bakery-art-cake .bakery-art-cake-left .bakery-art-quote{
+        width: 100%;
+    }
+    .bakery-art-cake .bakery-art-cake-left .bakery-art-quote span{
+        font-size: 20px;
+    }    
+    .bakery-art-cake .bakery-art-cake-left .bakery-art-quote .quote-sign{
+        font-size: 40px;
     }
     /**
         Tasty Pancakes
@@ -284,7 +308,7 @@ and open the template in the editor.
         padding: 85px 15px 0 15px;
     }
     .bakery-tasty .bakery-tasty-slider .tasty-slider-content .tasty-slider-content-wrapper .main-title{
-        font-size: 36px;
+        font-size: 32px;
     }
     .bakery-tasty .bakery-tasty-slider .tasty-sub-info{
         right: 0;
@@ -296,45 +320,76 @@ and open the template in the editor.
     .bakery-breakfast .bakery-breakfast-left .breakfast-title,
     .bakery-sandwitch .bakery-sandwitch-title h3,
     .bakery-art-cake .bakery-art-cake-left h3{
-        font-size: 40px;
+        font-size: 32px;
     }
     .bakery-breakfast .bakery-breakfast-right .breakfast-content .right-item-title {
-        font-size: 30px;
+        font-size: 26px;
     }
     .bakery-breakfast .bakery-breakfast-left h4{
-        font-size: 26px;
+        font-size: 24px;
+    }
+    .bakery-breakfast .bakery-breakfast-left .breakfast-sub-title{
+        font-size: 12px;
+    }
+    .bakery-breakfast .bakery-breakfast-right .breakfast-content a{
+        padding: 15px 30px;
+        font-size: 18px;
     }
     .bakery-sandwitch .bakery-sandwitch-left .bakery-sandwitch-content .ingredient-title{
-        font-size: 26px;
+        font-size: 24px;
     }
-    .bakery-sandwitch .bakery-sandwitch-left {
+    .bakery-sandwitch .bakery-sandwitch-left{
         margin-bottom: 0;
     }
-    .bakery-sandwitch .bakery-sandwitch-right {
+    .bakery-sandwitch .bakery-sandwitch-right{
         padding-left: 15px;
         padding-right: 15px;
         width: 100%;
         margin-bottom: 100px;
     }
+    .bakery-sandwitch .bakery-sandwitch-title {
+        width: 100%;
+    }
+    .bakery-breakfast .bakery-breakfast-right .breakfast-content p {
+        margin-top: 25px;
+    }
+    .bakery-sandwitch .bakery-sandwitch-right .bakery-sandwitch-right-item img{
+        border: 5px solid #fff;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time{
+        left: 0;
+        bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .bakery-sandwitch-right-item .bakery-sandwitch-time-item{
+        width: 33.33%;
+        height: auto;
+        padding: 10px;
+        float: left;
+        border-left: 1px solid #fff;
+    }
+    .bakery-sandwitch-time-item:last-child .time-number{
+        margin-bottom: 0;
+    }   
+    .bakery-sandwitch .bakery-sandwitch-right .bakery-sandwitch-right-item a{
+        top:0;
+        padding: 15px;
+        height: 50px;
+    }
     .bakery-sandwitch-content:first-child{
         margin-top: 50px;
-    }
-    .bakery-sandwitch-right-item .bakery-sandwitch-time-item span{
-        display: inline-block;
     }
     .bakery-sandwitch-right-item .bakery-sandwitch-time-item .time-title,
     .bakery-sandwitch-right-item .bakery-sandwitch-time-item .time-mins{
         font-size: 14px;
     }
     .bakery-sandwitch-right-item .bakery-sandwitch-time-item .time-number{
-        font-size: 30px;
-    }
-    .bakery-sandwitch-right-item .bakery-sandwitch-time-item{
-        padding: 25px 40px;
+        font-size: 32px;
     }
     .subs{
         color: #a47d5e;
-        font-size: 12px;
+        font-size: 10px;
     }
     footer{
         padding: 0 15px 0 15px;

@@ -55,6 +55,12 @@ a{
 	color: #a47d5e;
 	font-size: 14px;
 }
+.myshow{
+	display: block;
+}
+.myHide{
+	display: none;
+}
 /**
 	-----Footer-----
 */

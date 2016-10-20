@@ -15,7 +15,7 @@
 
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">s
+        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
         <link rel="stylesheet" href="owlcarousel/assets/theme.css">
 
         <link rel="stylesheet" href="css/master.css">
@@ -39,17 +39,17 @@
                         </button> 
                         <h1><a class="navbar-brand" href="#" id="bakery-logo">Gustoso</a></h1>
                         </div>
-                        <div class="navbar-collapse collapse business-collapse" id="navbar">
+                        <div class="navbar-collapse collapse" id="navbar">
                             <ul class="nav navbar-nav bakery-left">
-                                    <li><a href="index.html" class="bakery-collapse-item active">WELCOME</a></li>
-                                    <li class="fade-li">~</li>
-                                    <li><a href="#" class="bakery-collapse-item">MENU</a></li>   
-                                    <li class="fade-li">~</li>             
-                                    <li><a href="#" class="bakery-collapse-item">RESEVATIONS</a></li>
-                                    <li class="fade-li">~</li>
-                                    <li><a href="#" class="bakery-collapse-item">NEWS</a></li>
-                                    <li class="fade-li">~</li>
-                                    <li><a href="#" class="bakery-collapse-item">CONTACTS</a></li> 
+                                <li><a href="index.html" class="active">WELCOME</a></li>
+                                <li class="fade-li">~</li>
+                                <li><a href="#">MENU</a></li>   
+                                <li class="fade-li">~</li>             
+                                <li><a href="#">RESEVATIONS</a></li>
+                                <li class="fade-li">~</li>
+                                <li><a href="#">NEWS</a></li>
+                                <li class="fade-li">~</li>
+                                <li><a href="#">CONTACTS</a></li> 
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -85,7 +85,7 @@
                             </div>
                             <div class="bakery-art-quote">
                                 <span class="quote-sign pull-left">&ldquo;</span><br>
-                                <span> Unique creations for unique <br> occasions.</span><br>
+                                <span> Unique creations for unique occasions.</span><br>
                                 <span class="quote-sign pull-right">&rdquo;</span>
                             </div>
                         </div> 
@@ -120,8 +120,29 @@
                         <div class="col-xs-12 col-sm-12 col-md-12 bakery-tasty-slider">
                             <img src="images/img-slider.png" alt="pancake" class="main-img img-responsive">
                             <div class="tasty-slider-content"> 
-                                <div class="tasty-slider-content-wrapper" id="tasty1">
+                                <div class="tasty-slider-content-wrapper myHide" id="tasty-0">
                                     <h3 class="title main-title">Tasty Pancakes</h3>
+                                    <span class="subs sub-title">season favourite</span>
+                                    <p class="detail">
+                                        Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
+                                    </p>
+                                </div>
+                                <div class="tasty tasty-slider-content-wrapper myHide" id="tasty-1">
+                                    <h3 class="title main-title">Tasty Pancakes 1</h3>
+                                    <span class="subs sub-title">season favourite</span>
+                                    <p class="detail">
+                                        Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
+                                    </p>
+                                </div>
+                                <div class="tasty tasty-slider-content-wrapper myHide" id="tasty-2">
+                                    <h3 class="title main-title">Tasty Pancakes 2</h3>
+                                    <span class="subs sub-title">season favourite</span>
+                                    <p class="detail">
+                                        Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
+                                    </p>
+                                </div>
+                                <div class="tasty tasty-slider-content-wrapper myHide" id="tasty-3">
+                                    <h3 class="title main-title">Tasty Pancakes 3</h3>
                                     <span class="subs sub-title">season favourite</span>
                                     <p class="detail">
                                         Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
@@ -129,12 +150,9 @@
                                 </div>
 
                                 <div id="owl-bakery" class="owl-carousel">
-                                    <a class="item link"><img src="images/slider-item1.png" class="img-responsive"></a>
-                                    <a class="item link"><img src="images/slider-item2.png" class="img-responsive"></a>
-                                    <a class="item link"><img src="images/slider-item3.png" class="img-responsive"></a>
-                                    <a class="item link"><img src="images/slider-item1.png" class="img-responsive"></a>
-                                    <a class="item link"><img src="images/slider-item2.png" class="img-responsive"></a>
-                                    <a class="item link"><img src="images/slider-item3.png" class="img-responsive"></a>
+                                    <a class="item link" id="1" onclick=" selectItem(1);"><img src="images/slider-item1.png" class="img-responsive"></a>
+                                    <a class="item link" id="2" onclick=" selectItem(2);"><img src="images/slider-item2.png" class="img-responsive"></a>
+                                    <a class="item link" id="3" onclick=" selectItem(3);"><img src="images/slider-item3.png" class="img-responsive"></a>
                                 </div>
                             </div>
                             <div class="tasty-sub-info">
@@ -151,8 +169,8 @@
                 <div class="bakery-container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-6 bakery-breakfast-left">
-                            <h2 class="breakfast-title">Breafast
-                            <span class="breakfast-sub-title"> 7am breafast? we're open</span></h2>
+                            <h3 class="breakfast-title">Breafast
+                            <span class="subs breakfast-sub-title">7am breafast? we're open</span></h3>
                             <div class="bakery-breakfast-type-wrapper">
                                 <div class="bakery-breakfast-type">
                                     <h4>Full breakfast</h4>
@@ -276,5 +294,14 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+        <script type="text/javascript">
+            function selectItem(i){
+                var img = $("#"+i).children('img').attr("src");
+                img = img.slice(7);
+                $(".main-img").attr({"src":"images/big-"+img});
+                var nd = $("#tasty-" + i).html();
+                $("#tasty-0").html(nd);
+            }
+        </script>
     </body>
 </html>
