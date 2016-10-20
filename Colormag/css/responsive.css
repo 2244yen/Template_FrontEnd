@@ -22,6 +22,12 @@ and open the template in the editor.
         width: 96%;
         margin: 0 auto;
     }
+    .sidebar img {
+        margin-bottom: 0;
+    }
+    .sidebar .thumnail-post{
+        height: 70px;
+    }
     footer .top-footer .cate-title{
         font-size: 16px;
     }
@@ -43,9 +49,6 @@ and open the template in the editor.
         padding-right: 15px;
         padding-left: 15px;
     }
-    .thumnail-post{
-        height: 70%;
-    }
     .sidebar .cate-title{
         font-size: 14px;
     }
@@ -53,13 +56,21 @@ and open the template in the editor.
         height: 25px;
     }
     .tags .label{
-        font-size: 10px;
+        font-size: 11px;
+        padding: 5px 10px;
     }
-    .thumnail-post {
-        width: 40%;
+    .tags span{
+        margin-bottom: 5px !important;
+        display: inline-block;
     }
-    .list-post {
-        width: 48%;
+    .sidebar .thumnail-post {
+        width: 100%;
+        margin-right: 0;
+    }
+    .sidebar .list-post {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     footer .title-wrapper{
         border-bottom: none;
@@ -85,15 +96,70 @@ and open the template in the editor.
         padding-right: 15px;
         padding-left: 15px;
     }
+    .top-header-right ul {
+        margin: 0 auto;
+        float: left !important;
+    }
+    .top-header-right ul li a{
+        text-align: center;
+    }
     .sidebar .ad-medium{
         display: none;
     }
     .color-nav .navbar-collapse{
         background-color: #fff;
+        border-top: none;
+        border-bottom: 2px solid #ddd;
     }
-   .color-nav .navbar-collapse ul li a{
+    .color-nav .navbar-collapse ul{
+        width: 99%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .color-nav .navbar-collapse ul:first-child{
+        margin-left: 0;
+    }
+    .color-nav .navbar-collapse ul li a, 
+    .color-nav .navbar-collapse ul li ul li a{
         color: #232323;
     }
+    .color-nav .navbar-collapse ul li ul{
+        left: 20px;
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+        background-color: #fff;
+    }
+    #big-icon{
+        float: right;
+    }
+    .color-nav .navbar-right{
+       position: absolute;
+       top: 0;
+       right: 0;
+    }
+    .color-nav .navbar-collapse .navbar-right li a:hover{
+        background: transparent;
+    }
+    .color-nav .navbar-right .search{
+        top: 50px;
+        right: 20px;
+        width: 98%;
+        border: none;
+    }
+    .sidebar img{
+        margin-bottom: 0; 
+    }
+    .sidebar .news-sidebar{
+        margin-bottom: 20px; 
+    }
+    footer .top-footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+    footer .bottom-footer{
+        padding: 50px 15px;
+    } 
 }
 
 
@@ -111,14 +177,74 @@ and open the template in the editor.
         padding-right: 15px;
         padding-left: 15px;
     }
+    .top-header .top-header-left .latest-title{
+        display: block;
+        padding-left: 0;
+    }
+    .top-header .top-header-left .top-content #sticker{
+        left: 60px;
+        top: -20px;
+    }
+    .top-header-right{
+        margin-top: 10px;
+    }
+    .top-header-right ul {
+        margin: 0 auto;
+        float: left !important;
+    }
+    .top-header-right ul li a{
+        text-align: left;
+    } 
     .color-nav .navbar-collapse{
         background-color: #fff;
+        border-top: none;
+        border-bottom: 2px solid #ddd;
     }
-    .color-nav .navbar-collapse ul li a{
+    .color-nav .navbar-collapse ul{
+        width: 95%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .color-nav .navbar-collapse ul:first-child{
+        margin-left: 0;
+    }
+    .color-nav .navbar-collapse ul li a, 
+    .color-nav .navbar-collapse ul li ul li a{
         color: #232323;
-    } 
+    }
+    .color-nav .navbar-collapse ul li ul{
+        left: 20px;
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+        background-color: #fff;
+    }
+
+    #big-icon{
+        float: right;
+    }
+    .color-nav .navbar-right{
+       position: absolute;
+       top: 0;
+       right: 0;
+    }
+    .color-nav .navbar-collapse .navbar-right li a:hover{
+        background: transparent;
+    }
+    .color-nav .navbar-right .search{
+        top: 50px;
+        right: 30px;
+        width: 98%;
+        border: none;
+    }
     .sidebar .ad-medium{
         display: none;
+    }
+    .sidebar img{
+        margin-bottom: 0; 
+    }
+    .sidebar .news-sidebar{
+        margin-bottom: 20px; 
     }
     .default-content .default-content-left{
         width: 100%;
@@ -126,5 +252,12 @@ and open the template in the editor.
     }
     .default-content .default-content-right{
         width: 100%;
+    }
+    footer .top-footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+    footer .bottom-footer{
+        padding: 50px 15px;
     }
 }

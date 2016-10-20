@@ -3,6 +3,7 @@ body{
 	font-size: 14px;
 	background-color: #eaeaea;
 	font-family: 'Open Sans', serif;
+	overflow-x: hidden;
 }
 
 .color-container{
@@ -91,7 +92,9 @@ body{
 	float: right;
 	padding: 13px 15px 17px 0;
 }
-/*Navigation*/
+/**
+	Navigation
+*/
 .color-nav{
 	box-shadow:  0 0 2px rgba(0, 0, 0, 0.1) inset;
 	background: #232323;
@@ -103,15 +106,21 @@ body{
     height: 46px;
     max-width: 1200px;
     z-index: 999999999;
+    position: relative;
 }
-.affix {
-     top:0;
-     width: 100%;
-     z-index: 9999 !important;
+.nav-fixed {
+	position: fixed;
+    top:0;
+    z-index: 9999 !important;
+    width: 100%;
 }
-.navbar-nav > li > a, .navbar-brand {padding-top:0; padding-bottom:0;}
-.navbar {min-height:30px !important;}
-
+.navbar-nav > li > a, .navbar-brand{
+	padding-top:0; padding-bottom:0;
+}
+.navbar 
+{
+	min-height:30px !important;
+}
 .color-nav .navbar-collapse ul:first-child{
 	margin-left: 15px;
 }
@@ -133,12 +142,16 @@ body{
 	font-weight: 600;
 	padding: 11px 12px;
 }
+#angle-top{
+	font-size: 12px;
+}
 .color-nav .navbar-collapse ul li a:hover,
 .color-nav .navbar-collapse ul li a.active,
 .color-nav .navbar-collapse ul li ul li a:hover{
 	background-color: #289dcc;
 	color: #fff;
 }
+/** Menu Child*/
 .color-nav .navbar-collapse ul li ul{
 	position: absolute;
 	background: #232323;
@@ -171,25 +184,25 @@ body{
 .color-nav .navbar-right li a{
 	color: #fff;
 }
+
 #big-icon{
 	font-size: 24px;
 }
 .search{
-	width: 400px;
+	width: 300px;
 	position: absolute;
-	top: 45px;
+	top: 42px;
 	right: 0;
 	border: 1px solid #ccc;
 	padding: 10px;
 	display: none;
 	z-index: 999;
 	background-color: #fff;
+	display: hidden;
 }
-.search input, .search span{
+.search input, .search button{
 	border-radius: 0;
 }
-/** Menu Child*/
-
 /**
 	Common Style
 */
@@ -293,6 +306,7 @@ footer{
 }
 footer a{
 	color: #fff;
+	text-decoration: none !important;
 }
 footer .top-footer{
 	padding-left: 30px;

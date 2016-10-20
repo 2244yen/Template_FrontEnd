@@ -1,5 +1,14 @@
 $(function () {
-
+    /**/
+    var nav = $(".color-nav");
+    $(window).scroll(function() {
+        if($(this).scrollTop() >= 161){
+            nav.addClass('nav-fixed');
+        }
+        else{
+            nav.removeClass('nav-fixed');
+        }
+    });
     $("#slider4").responsiveSlides({
         auto: true,
         pager: false,
@@ -21,5 +30,4 @@ $(function () {
 
     $('#sticker').vTicker();
     $().UItoTop({ easingType: 'easeOutQuart' });
-
 });

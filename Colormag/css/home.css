@@ -119,6 +119,7 @@
 	width: 65.5%;
 	float: left;
 	padding-right: 15px;
+	padding-bottom: 5px;
 }
 .title-post{
 	font-size: 18px;
@@ -144,8 +145,11 @@
 /**
 	Sidebar
 */
-.sidebar img{
+.sidebar .ad-medium{
 	margin-bottom: 35px;
+}
+.premium-wrapper{
+	margin-top: 35px;
 }
 .sidebar .list-post h3{
 	font-size: 14px !important;
@@ -171,4 +175,14 @@
 }
 .sidebar .list-ad li{
 	display: inline-block;
+	margin-bottom: 10px;
+}
+.sidebar .thumnail-post{
+	width: 50%;
+	margin-right: 2%;
+	float: left;
+}
+.sidebar .list-post{
+	width: 48%;
+	padding-bottom: 5px;
 }
