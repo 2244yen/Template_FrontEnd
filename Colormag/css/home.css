@@ -1,0 +1,174 @@
+/**
+	Default content
+*/
+.cates-content{
+	padding-bottom: 50px;
+}
+.default-content{
+	margin: 20px 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	z-index: -999999;
+}
+.default-content .default-content-left{
+	width: 55%;
+	float: left;
+	margin-right: 1%;
+	position: relative;
+}
+.default-content .default-content-left .color-slider{
+	width: 100%;
+	height: 100%;
+}
+.default-content .default-content-left img{
+	width: 100%;
+	height: 350px;
+}
+.default-content .default-content-right{
+	width: 44%;
+	float: left;
+}
+.default-content .default-content-right .img-wrapper{
+	width: 49%;
+	float: left;
+	position: relative;
+	margin-bottom: 10px;
+	margin-right: 2%;
+}
+.default-content .default-content-right .img-wrapper:nth-child(even){
+	margin-right: 0;
+}
+.default-content .default-content-right img{
+	height: 170px;
+	width: 100%;
+}
+.default-content .default-content-right .detail{
+	position: absolute;
+	width: 100%;
+	max-height: 200px;
+	bottom: 10px;
+	left: 0;
+	margin-left: 10px;
+}
+.default-content .default-content-right .detail p{
+	margin-bottom: 0;
+	font-weight: 500;
+}
+.default-content .detail a{
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+.default-content .detail a:hover{
+	color: #289dcc;
+}
+.default-content .detail i{
+	color: #fff;
+}
+
+.cates, .sidebar{
+	margin-top: 20px;
+} 
+
+/**
+	Articles by Cate
+*/
+.heath{
+	margin-bottom: 30px;
+}
+.cates a{
+	text-decoration: none;
+}
+.cate-left, .cate-right{
+	margin-top: 15px;
+}
+.cate-left{
+	box-shadow: 0 0 5px #ccc;
+}
+.cate-left .post{
+	padding: 0 15px 5px 15px;
+}
+.cate-left img{
+	margin-bottom: 18px;
+}
+.cate-left .content{
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+.cate-right .post-item{
+	width: 100%;
+	height: auto;
+	box-shadow: 0 0 5px #ccc;
+	margin-bottom: 15px;
+}
+.title-wrapper{
+	width: 100%;
+	height: 30px;
+}
+.cate-title{
+	padding: 6px 12px;
+	color: #fff;
+	font-size: 18px;
+}
+.thumnail-post{
+	width: 32.5%;
+	margin-right: 2%;
+	float: left;
+}
+.list-post{
+	width: 65.5%;
+	float: left;
+	padding-right: 15px;
+}
+.title-post{
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.ad-large{
+	border: 10px solid #fff;
+	box-shadow: 0 0 5px #ccc;
+	margin: 45px auto;
+}
+.tech{
+	margin-bottom: 30px;
+}
+.tech-quote{
+	margin: 15px;
+}
+.tech-wrapper{
+	margin-left: 15px;
+	padding-right: 15px;
+	width: 97%;
+}
+/**
+	Sidebar
+*/
+.sidebar img{
+	margin-bottom: 35px;
+}
+.sidebar .list-post h3{
+	font-size: 14px !important;
+}
+.sidebar .list-theme, .sidebar .list-ad{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar .list-theme{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.sidebar .list-theme li{
+	line-height: 2.2em;
+}
+.sidebar .list-theme a{
+	color: #289dcc;
+	padding: 5px 0;
+}
+.sidebar .list-ad{
+	margin-top: 15px;
+}
+.sidebar .list-ad li{
+	display: inline-block;
+}

@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/*
+    Created on : Nov 1, 2013, 2:54:26 PM
+    Author     : Archie
+*/
+
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    /***
+	 * Index
+	 */
+    .color-container{
+        width: 96%;
+        margin: 0 auto;
+    }
+    footer .top-footer .cate-title{
+        font-size: 16px;
+    }
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /***
+	 * Index
+	*/
+    .color-container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .main-content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .thumnail-post{
+        height: 70%;
+    }
+    .sidebar .cate-title{
+        font-size: 14px;
+    }
+    .sidebar .title-wrapper{
+        height: 25px;
+    }
+    .tags .label{
+        font-size: 10px;
+    }
+    .thumnail-post {
+        width: 40%;
+    }
+    .list-post {
+        width: 48%;
+    }
+    footer .title-wrapper{
+        border-bottom: none;
+        margin-bottom: 45px;
+    }
+    footer .cate-title{
+        display: block;
+    }
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /***
+	 * Index
+	*/
+    .color-container{
+        width: 100%;
+    }
+    .main-content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .sidebar .ad-medium{
+        display: none;
+    }
+    .color-nav .navbar-collapse{
+        background-color: #fff;
+    }
+   .color-nav .navbar-collapse ul li a{
+        color: #232323;
+    }
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    /***
+	 * Index
+	*/
+    .color-container{
+        width: 100%;
+    }
+    .main-content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .color-nav .navbar-collapse{
+        background-color: #fff;
+    }
+    .color-nav .navbar-collapse ul li a{
+        color: #232323;
+    } 
+    .sidebar .ad-medium{
+        display: none;
+    }
+    .default-content .default-content-left{
+        width: 100%;
+        margin-right: 0;
+    }
+    .default-content .default-content-right{
+        width: 100%;
+    }
+}
