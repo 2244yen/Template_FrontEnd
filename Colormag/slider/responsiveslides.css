@@ -39,7 +39,7 @@
     left: 20px;
     padding-right: 15px;
 }
-.entered-btns .callbacks_nav{
+.rslides .callbacks_nav{
     position: absolute;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     right: 10px;
@@ -54,10 +54,10 @@
     background: transparent url("../images/themes.gif") no-repeat left top;
     margin-top: -45px;
 }
-.centered-btns .callbacks_nav:hover{
+.rslides .callbacks_nav:hover{
     opacity: 1;
 }
-.centered-btns .next {
+.rslides .next {
   left: auto;
   background-position: right top;
   right: 10px;

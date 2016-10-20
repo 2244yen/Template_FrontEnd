@@ -9,12 +9,13 @@ $(function () {
             nav.removeClass('nav-fixed');
         }
     });
-    $("#slider4").responsiveSlides({
+    $('.bxslider').bxSlider({
         auto: true,
         pager: false,
-        nav: true,
-        speed: 500,
-        namespace: "centered-btns"
+        prevSelector: '#left-slider',
+        nextSelector: '#right-slider',
+        prevText: '<i class="fa fa-angle-left left-slider" aria-hidden="true"></i>',
+        nextText: '<i class="fa fa-angle-right right-slider" aria-hidden="true"></i>'
     });
 
     var d = new Date();
