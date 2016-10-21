@@ -1,0 +1,805 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ColorMag</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap.offcanvas.min.css">
+
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" href="css/ui.totop.css" media="screen,projection">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body> 
+        <div id="container"> 
+            <div class="color-container">
+                <!--Header-->
+                <header>
+                    <div class="top-header">
+                        <div class="main-content">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 top-header-left">
+                                    <div class="top-content">
+                                        <span id="date-now" class="date"></span>
+                                        <span class="latest-title">Lastest:</span>
+                                        <div id="sticker">
+                                            <ul class="latest">
+                                                <li><a href="#">Coffee is health food: Myth or fact?</a></li>
+                                                <li><a href="#">Fastest plane in the world</a></li>
+                                                <li><a href="#">Wireless Headphones are now on Market</a></li>
+                                                <li><a href="#">Drones being used to monitor WordCup</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>    
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 top-header-right">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook blue" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter blueish-light" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus red" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-camera-retro blueish-bold" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest red" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-youtube red" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.top-header-->
+                    <div class="header">
+                        <div class="main-content">
+                            <div class="row">
+                                <div class="header-left">
+                                    <a href="#"><img src="images/logo.png" alt="colormag"></a>
+                                </div>
+                                <div class="header-right">
+                                    <a href="http://demo.themegrill.com/colormag-pro/" target="_blank"><img src="images/ad-color-mag-large.jpg" alt="ad" class="img-responsive"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-inverse color-nav" id="nav-fixed">
+                        <div class="color-container"> 
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button> 
+                            </div>
+                            <div class="navbar-collapse navbar-offcanvas navbar-offcanvas-fade" id="navbar">
+                                <ul class="nav navbar-nav color-left">
+                                    <li><a href="index.html" class="active home-icon"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                    <li><a href="#">SPORTS</a></li>
+                                    <li><a href="#">POLITICS</a></li>             
+                                    <li><a href="#">TECHNOLOGY</a></li>
+                                    <li><a href="#">HEALTH</a></li>
+                                    <li><a href="#">FASHION</a></li> 
+                                    <li>
+                                        <a href="#">LAYOUT <i class="fa fa-angle-down" aria-hidden="true" id="angle-top"></i></a>
+                                        <ul class="child">
+                                            <li><a href="#">Left sidebar</a></li>
+                                            <li><a href="#">Right sidebar</a></li>
+                                            <li><a href="#">No sidebar fullwidth</a></li>
+                                        </ul>
+                                    </li> 
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#" data-toggle="collapse" data-target="#search"><i class="fa fa-search" aria-hidden="true" id="big-icon"></i></a></li>
+                                    <form class="collapse search" role="search" id="search">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control">
+                                            <span class="input-group-btn">
+                                                <button class="btn premium-color" type="button"><i class="fa fa-search white" aria-hidden="true"></i></button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </ul>
+
+                            </div><!--/end .navbar-collapse --> 
+                        </div>                  
+                    </nav><!--/end nav -->   
+                </header> <!--end header-->
+
+                <!--Main content-->
+                <article>      
+                    <div class="main-content">
+                        <div class="row">
+                            <section class="default-content">
+                                <div class="default-content-left" id="slider4">
+                                    <ul class="bxslider">
+                                        <li>
+                                            <img src="images/fireman-100722_1280-800x445.jpg" alt="fireman" class="img-responsive">
+                                            <div class="caption detail">
+                                                <div class="tags">
+                                                    <a href="#"><span class="label food-color">General</span></a>
+                                                    <a href="#"><span class="label latest-color">Latest</span></a>
+                                                    <a href="#"><span class="label news-color">News</span></a>
+                                                </div>
+                                                <h3 class="art-title"><a href="#">Destruction in Montania</a></h3>
+                                                <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                                <span class="comment-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="images/vehicle-193213_1280-800x445.jpg" alt="technology" class="img-responsive">
+                                            <div class="caption detail">
+                                                <div class="tags">
+                                                    <a href="#"><span class="label news-color">General</span></a>
+                                                    <a href="#"><span class="label latest-color">Latest</span></a>
+                                                    <a href="#"><span class="label tech-color">Technology</span></a>
+                                                </div>
+                                                <h3 class="art-title"><a href="#">Invention of Advance Technology</a></h3>
+                                                <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                                <span class="comment-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="images/clormag-slider.jpg" alt="weather" class="img-responsive">
+                                            <div class="caption detail">
+                                                <div class="tags">
+                                                    <a href="#"><span class="label research-color">Research</span></a>
+                                                    <a href="#"><span class="label weather-color">Weather</span></a>
+                                                </div>
+                                                <h3 class="art-title"><a href="#">Snow Forecast & Snow Reports</a></h3>
+                                                <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                                <span class="comment-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <p class="nav-control"><span id="left-slider"></span>
+                                    <span id="right-slider"></span></p>
+                                </div>
+                                <div class="clearfix default-content-right">
+                                    <div class="img-wrapper">  
+                                        <img src="images/bride-301814_1280-392x272.jpg" class="img-responsive">
+                                        <div class="detail">
+                                            <p><a href="#">Music is Passion</a></p>
+                                            <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                            <span class="comment-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="img-wrapper">  
+                                        <img src="images/sea-418742_1920-392x272.jpg" class="img-responsive">
+                                        <div class="detail">
+                                            <p><a href="#">A Paradise for Holiday</a></p>
+                                            <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 20, 2015</a></span>
+                                            <span class="comment-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="img-wrapper">  
+                                        <img src="images/kayaking-569282_1280-392x272.jpg" class="img-responsive">
+                                        <div class="detail">
+                                            <p><a href="#">Kayaking: Adventurous Sport</a></p>
+                                            <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 20, 2015</a></span>
+                                            <span class="comment-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="img-wrapper">  
+                                        <img src="images/clouds-sky-stadium-4516-392x272.jpg" class="img-responsive">
+                                        <div class="detail">
+                                            <p><a href="#">Tennis Match: Go Federer</a></p>
+                                            <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 19, 2015</a></span>
+                                            <span class="comment-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section> <!--/.default-content-->
+                        </div><!--/.ROW-->
+                   
+                        <div class="row cates-content">
+                            <section class="col-xs-12 col-sm-9 col-md-9 cates">
+                                <!--Health-->
+                                <section class="heath">
+                                    <div class="title-wrapper health-wrapper">
+                                        <span class="cate-title health-color">Health</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="cate-left">
+                                                <a href="#"><img src="images/coffee-563797_1280-390x205.jpg" alt="coffee" class="img-responsive" width="100%"></a>
+                                                <div class="post">
+                                                    <div class="tags">
+                                                        <a href="#"><span class="label drink-color">Drinks</span></a>
+                                                        <a href="#"><span class="label food-color">Food</span></a>
+                                                        <a href="#"><span class="label health-color">Health</span></a>
+                                                    </div>
+                                                    <h3 class="art-title"><a href="#">Coffee is health food: Myth or fact?</a></h3>
+                                                    <div class="info-post">
+                                                        <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                        <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                                        <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                                    </diV>
+                                                    <p class="content">
+                                                        Vivamus vestibulum ut magna vitae facilisis. Maecenas laoreet lobortis tristique. Aenean accumsan malesuada convallis. Suspendisse egestas luctus nisl, sit amet
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 cate-right">
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/mosquito-542156_1280-130x90.jpg" alt="mosquito" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Mosquito-borne diseases has threaten World</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/solar-eclipse-152834_1280-130x90.png" alt="solar" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Solar eclipse: Eye health warning</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/yummy-333666_1280-130x90.jpg" alt="yummy" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Get more nutrition in every bite</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/relay-race-655353_1280-130x90.jpg" alt="race" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Women’s Relay Competition</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!--Travel-->
+                                <section class="travel">
+                                    <div class="title-wrapper travel-wrapper">
+                                        <span class="cate-title travel-color">Travel</span>
+                                    </div>
+                                    <div class="travel-slider">
+                                        <div class="slide">
+                                            <a href="#"><img src="images/travel/beach-150x150.jpg" alt="beach">
+                                                <p>
+                                                    Sujuku island: an emerging tourist destination
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="slide">
+                                            <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/travel/girl-1-150x150.jpg" alt="girl">
+                                                <p>
+                                                    Perfect place to photoshoot
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="slide">
+                                            <a href="#"><img src="images/travel/bicycling-150x150.jpg" alt="girl">
+                                                <p>
+                                                    Cycling on Mountain
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="slide">
+                                            <a href="#"><img src="images/travel/boat-150x150.jpg" alt="boat">
+                                                <p>
+                                                    Boating experience in Pokhara
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="slide">
+                                            <a href="#"><img src="images/travel/nepal-150x150.jpg" alt="nepal">
+                                                <p>
+                                                    One of the most awesome Tourist destination
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="slide">
+                                            <a href="#"><img src="images/travel/winding-150x150.jpg" alt="winding">
+                                                <p>
+                                                    Construction Of New Highway Completed In LA
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="slide">
+                                            <a href="#"><img src="images/travel/rally-catalunya-150x150.jpg" alt="winding">
+                                                <p>
+                                                    IESO Sportscar Racing
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                            
+                                                <div class="modal-body">
+                                                    <div class="cate-left">
+                                                        <img src="images/girl-1.jpg" alt="fashion" class="img-responsive" width="100%">
+                                                        <div class="post">
+                                                            <div class="tags">
+                                                                <a href="#"><span class="label fashion-color">Fashion</span></a>
+                                                                <a href="#"><span class="label female-color">Female</span></a>
+                                                                <a href="#"><span class="label style-color">Style</span></a>
+                                                            </div>
+                                                            <h3 class="art-title"><a href="#">Perfect place to photoshoot</a></h3>
+                                                            <div class="info-post">
+                                                                <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                                <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                                                <span class="date-detail"><i class="fa fa-eye" aria-hidden="true"></i><a href="#">Views</a></span>
+                                                                <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comment</a></span>
+                                                            </diV>
+                                                            <p class="content">
+                                                                Perfect place to photoshoot
+                                                                June 24, 2015 TG-Demo Team2492 Views  0 Comment
+                                                                Fusce posuere elit ut nibh fermentum, id finibus felis fermentum. Praesent turpis urna, aliquam quis convallis sed, accumsan quis quam. Fusce viverra tincidunt aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra congue est non dapibus. Aliquam quis turpis at quam porttitor viverra. Cras nec neque turpis. Curabitur pharetra finibus leo, in mollis nulla ultricies eu. Quisque dictum elementum blandit. Duis vitae quam eu odio lobortis rhoncus. Proin congue quam quis risus bibendum blandit. Duis mollis arcu imperdiet nunc faucibus pharetra congue sed velit. Duis interdum malesuada pulvinar. Phasellus id semper quam. Nam commodo ex eget mattis egestas. Pellentesque id felis dictum diam iaculis consectetur.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <div class="row">
+                                    <!--Fashion-->
+                                    <section class="col-sm-6 col-md-6 fashion">
+                                        <div class="title-wrapper fashion-wrapper">
+                                            <span class="cate-title fashion-color">FASHION</span>
+                                        </div>
+                                        <div class="cate-left">
+                                            <a href="#"><img src="images/model-600225_1280-390x205.jpg" alt="fashion" class="img-responsive" width="100%"></a>
+                                            <div class="post">
+                                                <div class="tags">
+                                                    <a href="#"><span class="label fashion-color">Fashion</span></a>
+                                                    <a href="#"><span class="label female-color">Female</span></a>
+                                                    <a href="#"><span class="label style-color">Style</span></a>
+                                                </div>
+                                                <h3 class="art-title"><a href="#">Looks from the Roswana, 2015</a></h3>
+                                                <div class="info-post">
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                                </diV>
+                                                <p class="content">
+                                                    For Joesendra, this is only her second fashion week showing, following her presentation at a Fashion World on this January.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="cate-right">
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/beauty-666605_1920-130x90.jpg" alt="hair color" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Color your Hair</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/window-213496_1280-130x90.jpg" alt="collection" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">New Styling Collections</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/relaxed-498245_1280-130x90.jpg" alt="collection" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Consectetur adipiscing</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!--Sport-->
+                                    <section class="col-sm-6 col-md-6 sport">
+                                        <div class="title-wrapper sport-wrapper">
+                                            <span class="cate-title sport-color">SPORT</span>
+                                        </div>
+                                        <div class="cate-left">
+                                            <a href="#"><img src="images/relay-race-655353_1280-390x205.jpg" alt="race" class="img-responsive" width="100%"></a>
+                                            <div class="post">
+                                                <div class="tags">
+                                                    <a href="#"><span class="label enter-color">Entertainment</span></a>
+                                                    <a href="#"><span class="label female-color">Female</span></a>
+                                                    <a href="#"><span class="label health-color">Health</span></a>
+                                                    <a href="#"><span class="label sport-color">Sport</span></a>
+                                                </div>
+                                                <h3 class="art-title"><a href="#">Women’s Relay Competition</a></h3>
+                                                <div class="info-post">
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                                </diV>
+                                                <p class="content">
+                                                   The young team of Franziska Hildebrand, Franziska Preuss, Vanessa Hinz and Dahlmeier clocked 1 hour, 11 minutes, 54.6 seconds to beat France
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="cate-right">
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/swimmer-583667_1280-130x90.jpg" alt="swimmer" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Swimming Record</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/football-622873_1280-130x90.jpg" alt="football" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Smith Handed His Place in History</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/basketball-95607_1280-130x90.jpg" alt="basketball" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Sparians on Form</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                                <!--Ad Colormag-->
+                                <a href="#"><img src="images/ad-color-mag-large.jpg" alt="colormag ad" class="img-responsive ad-large"></a>
+                                <!--Technology-->
+                                <div class="row">
+                                    <div class="title-wrapper tech-wrapper">
+                                        <span class="cate-title tech-color">Technology</span>
+                                    </div>
+                                    <p class="tech-quote">Check out technologychanging the life.</p>
+                                    <section class="col-sm-6 col-md-6">
+                                        <div class="cate-left">
+                                            <img src="images/iphone-500291_1280-390x205.jpg" alt="iphone" class="img-responsive" width="100%">
+                                            <div class="post">
+                                                <div class="tags">
+                                                    <a href="#"><span class="label enter-color">Entertainment</span></a>
+                                                    <a href="#"><span class="label gadgets-color">Gadgets</span></a>
+                                                    <a href="#"><span class="label news-color">News</span></a>
+                                                    <a href="#"><span class="label tech-color">Technology</span></a>
+                                                </div>
+                                                <h3 class="art-title"><a href="#">Teens use apps to keep secrets?</a></h3>
+                                                <div class="info-post">
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                                </diV>
+                                                <p class="content">
+                                                    Cras accumsan elit augue, sit amet vestibulum turpis fringilla nec. Etiam eu dictum tortor. Sed feugiat lacus non ultricies pulvinar.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="col-sm-6 col-md-6">
+                                        <div class="cate-right">
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/supersonic-fighter-63211_1280-130x90.jpg" alt="plane" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Fastest plane in the world</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/headphones-15600_1280-130x90.jpg" alt="headphone" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Wireless Headphones are now on Market</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/drone-674238_1280-130x90.jpg" alt="drone" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Drones being used to monitor WordCup</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </section> <!--/.cate-content-->
+                            <!--Sidebar-->
+                            <aside class="clearfix col-xs-12 col-sm-3 col-md-3 sidebar">
+                                <a href="http://demo.themegrill.com/colormag-pro/" target="_blank"><img src="images/ad-color-mag-medium.jpg" alt="ad" class="img-responsive ad-medium"> </a>
+                                <div class="title-wrapper news-wrapper">
+                                    <span class="cate-title news-color">News</span>
+                                </div>
+                                <div class="cate-left">
+                                    <a href="#"><img src="images/fireman-100722_1280-390x205.jpg" alt="fireman" class="img-responsive news-sidebar" width="100%"></a>
+                                    <div class="post">
+                                        <div class="tags">
+                                            <a href="#"><span class="label drink-color">General</span></a>
+                                            <a href="#"><span class="label food-color">Latest</span></a>
+                                            <a href="#"><span class="label news-color">News</span></a>
+                                        </div>
+                                        <h3 class="art-title"><a href="#">Destruction in Montania</a></h3>
+                                        <div class="info-post">
+                                            <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                            <span class="date-detail"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">TG-Demo Team</a></span>
+                                            <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a></span>
+                                        </diV>
+                                        <p class="content">
+                                            Nunc consectetur ipsum nisi, ut pellentesque felis tempus vitae. Integer eget lacinia nunc. Vestibulum consectetur convallis augue id egestas. Nullam
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="cate-right" id="sidebar-post">
+                                    <div class="clearfix post-item">
+                                        <a href="#"><img src="images/vehicle-193213_1280-130x90.jpg" alt="technology" class="img-responsive thumnail-post"></a>
+                                        <div class="list-post">
+                                            <h3 class="title-post"><a href="#">Invention of Advance Technology</a></h3>
+                                            <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                            <span class="date-detail cmt"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix post-item">
+                                        <a href="#"><img src="images/swimmer-583667_1280-130x90.jpg" alt="swimmer" class="img-responsive thumnail-post"></a>
+                                        <div class="list-post">
+                                            <h3 class="title-post"><a href="#">Swimming Record</a></h3>
+                                            <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                            <span class="date-detail cmt"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix post-item">
+                                        <a href="#"><img src="images/newspapers-444453_1280-130x90.jpg" alt="basketball" class="img-responsive thumnail-post"></a>
+                                        <div class="list-post">
+                                            <h3 class="title-post"><a href="#">News with Coffee</a></h3>
+                                            <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">March 24, 2015</a></span>
+                                            <span class="date-detail cmt"><i class="fa fa-comment" aria-hidden="true"></i><a href="#"> Comments Off</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>   
+                                <ul class="nav nav-tabs sidebar-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#pop" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-star" aria-hidden="true"></i>Popular</a></li>
+                                    <li role="presentation"><a href="#recent" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-history" aria-hidden="true"></i>Recent</a></li>
+                                    <li role="presentation"><a href="#comment" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-comment" aria-hidden="true"></i>Comment</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content" id="tabs-right">
+                                    <div role="tabpanel" class="tab-pane active" id="pop">
+                                        <div class="cate-right tab-right">
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/writing-130x90.jpg" alt="writting" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Paymounth business notes</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">June 23, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#">1 Comment</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/woman-130x90.jpg" alt="writting" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Fashion news from Marry Cartor’s style experts</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">June 23, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#">1 Comment</a>
+                                                    </span>
+                                                </div> 
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/military-jets-392x272.jpg" alt="military" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Defense Aviation Mark ST-51 Specification</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">June 23, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#">1 Comment</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/Untitled-1-130x90.jpg" alt="politics" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Political Discussion Meetup</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">June 23, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#">1 Comment</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="recent">
+                                        <div class="cate-right">
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/pommel-horse-130x90.jpg" alt="sport" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Krish Gerry Wins Pommel Horse Gold</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">June 23, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#">1 Comment</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/space-130x90.jpg" alt="tech" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Comet, Set To Strike The Earth</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">June 23, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#">1 Comment</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/fashion-130x90.jpg" alt="weather" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <h3 class="title-post"><a href="#">Winter fashion news</a></h3>
+                                                    <span class="date-detail"><i class="fa fa-calendar-o" aria-hidden="true"></i> <a href="#">June 23, 2015</a></span>
+                                                    <span class="date-detail"><i class="fa fa-comment" aria-hidden="true"></i><a href="#">1 Comment</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="comment"> 
+                                        <div class="cate-right">
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/logo-comment.jpeg" alt="sport" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <p> <a href="#">TG-Demo Team</a> says:
+                                                    She looks damn!! cute....</p>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/logo-comment.jpeg" alt="sport" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <p> <a href="#">TG-Demo Team</a> says:
+                                                    She looks damn!! cute....</p>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix post-item">
+                                                <a href="#"><img src="images/tabs/logo-comment.jpeg" alt="sport" class="img-responsive thumnail-post"></a>
+                                                <div class="list-post">
+                                                    <p> <a href="#">TG-Demo Team</a> says:
+                                                    She looks damn!! cute....</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title-wrapper premium-wrapper">
+                                    <span class="cate-title premium-color">Our Sponsors</span>
+                                </div>
+                                <ul class="list-ad">
+                                    <li><a href="#"><img src="images/125ad1.jpg" alt="ad-small" class="img-responsive"></a></li>
+                                    <li><a href="#"><img src="images/125ad1.jpg" alt="ad-small" class="img-responsive"></a></li>
+                                    <li><a href="#"><img src="images/125ad1.jpg" alt="ad-small" class="img-responsive"></a></li>
+                                    <li><a href="#"><img src="images/125ad1.jpg" alt="ad-small" class="img-responsive"></a></li>
+                                </ul>
+                            </aside>
+                        </div><!--/.ROW-->
+                    </div>
+                </article><!--main content-->
+            </div><!--/.color-container-->
+            
+            <footer class="color-container">
+                <div class="top-footer">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-5 col-md-5">
+                            <div class="title-wrapper premium-wrapper">
+                                <span class="cate-title premium-color">About Us</span>
+                            </div> 
+                            <img src="images/logo.png" alt="logo" class="img-responsive">
+                            <p>
+                                We love WordPress and we are here to provide you with professional looking WordPress themes so that you can take your website one step ahead. We focus on simplicity, elegant design and clean code.
+                            </p>
+                        </div>
+                        <div class="col-sm-7 col-md-7">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                    <div class="title-wrapper premium-wrapper">
+                                        <span class="cate-title premium-color">Useful Links</span>
+                                    </div> 
+                                    <ul class="list-link">
+                                        <li><a href="#">ThemeGrill</a></li>
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Documentation</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Themes</a></li>
+                                        <li><a href="#">Plugins</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Plans & Pricing</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                    <div class="title-wrapper premium-wrapper">
+                                        <span class="cate-title premium-color">Other Themes</span>
+                                    </div> 
+                                    <ul class="list-link">
+                                        <li><a href="#">Envince</a></li>
+                                        <li><a href="#">eStore</a></li>
+                                        <li><a href="#">Ample</a></li>
+                                        <li><a href="#">Spacious</a></li>
+                                        <li><a href="#">Accelerate</a></li>
+                                        <li><a href="#">Radiate</a></li>
+                                        <li><a href="#">Esteem</a></li>
+                                        <li><a href="#">Himalayas</a></li>
+                                        <li><a href="#">ColorNews</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                    <div class="title-wrapper premium-wrapper">
+                                        <span class="cate-title premium-color">ColorMag Pro</span>
+                                    </div> 
+                                    <a href="http://demo.themegrill.com/colormag-pro/" target="_blank"><img src="images/ad-color-mag-medium.jpg" alt="ad small" class="img-responsive fad"></a>
+                                    <p class="pfooter">
+                                        Contains all features of free version and many new additional features.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <p> 
+                                Copyright © 2016 COLORMAG. All rights reserved.<br>
+                                Theme: ColorMag by ThemeGrill. Powered by WordPress.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 top-header-right">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook blue" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter blueish-light" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus red" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-camera-retro blueish-bold" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest red" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube red" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/bootstrap.offcanvas.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script src="js/jquery.vticker.min.js"></script>
+        <script src="js/jquery.ui.totop.min.js"></script>
+        <script src="js/easing.js"></script>
+
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,320 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/*
+    Created on : Nov 1, 2013, 2:54:26 PM
+    Author     : Archie
+*/
+
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    /***
+	 * Index
+	 */
+    .color-container{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .sidebar img {
+        margin-bottom: 0;
+    }
+    .sidebar .thumnail-post{
+        height: 70px;
+    }
+    footer .top-footer .cate-title{
+        font-size: 16px;
+    }
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /***
+	 * Index
+	*/
+    .color-container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .main-content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .sidebar .cate-title{
+        font-size: 14px;
+    }
+    .sidebar .title-wrapper{
+        height: 25px;
+    }
+    .tags .label{
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+    .tags span{
+        margin-bottom: 5px !important;
+        display: inline-block;
+    }
+    .thumnail-post{
+        width: 58%
+    }
+    .list-post{
+        width: 40%;
+    }
+    #sidebar-post .cmt{
+        display: none;
+    }
+    #sidebar-post .thumnail-post{
+        width: 100%;
+    }
+    #sidebar-post .list-post{
+        width: 100%;
+        padding: 5px;
+    }
+    #tabs-right #pop .thumnail-post,
+    #tabs-right #recent .thumnail-post{
+        width: 100%;
+        margin-right: 0;
+    }
+    #tabs-right #pop .list-post,
+    #tabs-right #recent .list-post{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #tabs-right  #comment .thumnail-post{
+        width: 28% !important;
+    }
+    #tabs-right  #comment .list-post{
+        width: 60%
+    }
+    footer .title-wrapper{
+        border-bottom: none;
+        margin-bottom: 45px;
+    }
+    footer .cate-title{
+        display: block;
+    }
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /***
+	 * Index
+	*/
+    .color-container{
+        width: 100%;
+    }
+    .main-content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .top-header-right ul {
+        margin: 0 auto;
+        float: left !important;
+    }
+    .top-header-right ul li a{
+        text-align: center;
+    }
+    .sidebar .ad-medium{
+        display: none;
+    }
+    .color-nav .navbar-collapse{
+        background-color: #fff;
+        border-top: none;
+        border-bottom: 2px solid #ddd;
+    }
+    .color-nav .navbar-collapse ul{
+        width: 99%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .color-nav .navbar-collapse ul:first-child{
+        margin-left: 0;
+    }
+    .color-nav .navbar-collapse ul li a, 
+    .color-nav .navbar-collapse ul li ul li a{
+        color: #232323;
+    }
+    .color-nav .navbar-collapse ul li ul{
+        left: 20px;
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+        background-color: #fff;
+    }
+    #big-icon{
+        float: right;
+    }
+    .color-nav .navbar-right{
+       position: absolute;
+       top: 0;
+       right: 0;
+    }
+    .color-nav .navbar-collapse .navbar-right li a:hover{
+        background: transparent;
+    }
+    .color-nav .navbar-right .search{
+        top: 50px;
+        right: 20px;
+        width: 98%;
+        border: none;
+    }
+    .default-content .default-content-left{
+        width: 100%;
+    }
+    .default-content .default-content-right{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .default-content .default-content-right img{
+        height: 250px;
+    }
+    .tags .label{
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+    .tags span{
+        margin-bottom: 5px !important;
+        display: inline-block;
+    }
+    .sidebar img{
+        margin-bottom: 0; 
+    }
+    .sidebar .news-sidebar{
+        margin-bottom: 20px; 
+    }
+    footer .top-footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+    footer .bottom-footer{
+        padding: 50px 15px;
+    } 
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    /***
+	 * Index
+	*/
+    .color-container{
+        width: 100%;
+    }
+    .main-content{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .top-header .top-header-left .latest-title{
+        display: block;
+        padding-left: 0;
+    }
+    .top-header .top-header-left .top-content #sticker{
+        left: 60px;
+        top: -20px;
+    }
+    .top-header-right{
+        margin-top: 10px;
+    }
+    .top-header-right ul {
+        margin: 0 auto;
+        float: left !important;
+    }
+    .top-header-right ul li a{
+        text-align: left;
+    } 
+    .color-nav .navbar-collapse{
+        background-color: #fff;
+        border-top: none;
+        border-bottom: 2px solid #ddd;
+    }
+    .color-nav .navbar-collapse ul{
+        width: 95%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .color-nav .navbar-collapse ul:first-child{
+        margin-left: 0;
+    }
+    .color-nav .navbar-collapse ul li a, 
+    .color-nav .navbar-collapse ul li ul li a{
+        color: #232323;
+    }
+    .color-nav .navbar-collapse ul li ul{
+        left: 20px;
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+        background-color: #fff;
+    }
+
+    #big-icon{
+        float: right;
+    }
+    .color-nav .navbar-right{
+       position: absolute;
+       top: 0;
+       right: 0;
+    }
+    .color-nav .navbar-collapse .navbar-right li a:hover{
+        background: transparent;
+    }
+    .color-nav .navbar-right .search{
+        top: 50px;
+        right: 30px;
+        width: 98%;
+        border: none;
+    }
+    .tags .label{
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+    .tags span{
+        margin-bottom: 5px !important;
+        display: inline-block;
+    }
+    .default-content .default-content-left img {
+        width: 100%;
+        height: 250px;
+    }
+    .default-content .default-content-right{
+        margin-top: 10px;
+    }
+    .sidebar .ad-medium{
+        display: none;
+    }
+    .sidebar img{
+        margin-bottom: 0; 
+    }
+    .sidebar .news-sidebar{
+        margin-bottom: 20px; 
+    }
+    .default-content .default-content-left{
+        width: 100%;
+        margin-right: 0;
+    }
+    .default-content .default-content-right{
+        width: 100%;
+    }
+    footer .top-footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+    footer .bottom-footer{
+        padding: 50px 15px;
+    }
+}

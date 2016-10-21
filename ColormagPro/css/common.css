@@ -1,0 +1,161 @@
+/**
+	Common Style
+*/
+.date-detail, .comment-detail{
+	font-size: 11px;
+	margin-right: 10px;
+	color: #888;
+}
+.info-post:last-child{
+	margin-right: 0;
+}
+.art-title{
+	font-size: 22px;
+	font-weight: 400;
+}
+a{
+	color: #232323;
+	text-decoration: none;
+}
+a:hover{
+	color: #289dcc;
+}
+.tags .label{
+	padding: 3px 10px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/**
+	-----Color and wrapper in cates
+*/
+.health-color{
+	background-color: #81d742;
+}
+.food-color{
+	background-color: #a3d886;
+}
+.drink-color{
+	background-color: #dd8787;
+}
+.news-color{
+	background-color: #a38a6d;
+}
+.fashion-color{
+	background-color: #bd4cce;
+}
+.sport-color{
+	background-color: #dd5a5a;
+}
+.female-color{
+	background-color: #d8a0c2;
+}
+.style-color{
+	background-color: #b17fe2;
+}
+.enter-color{
+	background-color: #e8357c;
+}
+.premium-color{
+	background-color: #289dcc;
+}
+.tech-color{
+	background-color: #777fce;
+}
+.gadgets-color{
+	background-color: #82ada1;
+}
+.latest-color{
+	background-color: #e5e220;
+}
+.general-color{
+	background-color: #e5e220;
+}
+.research-color{
+	background-color: #03799e;
+}
+.weather-color{
+	background-color: #26b59d;
+}
+.travel-color{
+	background-color: #13306b;
+}
+/***------------***/
+
+.health-wrapper{
+	border-bottom: 3px solid #81d742;
+}
+.news-wrapper{
+	border-bottom: 3px solid #a38a6d;
+}
+.fashion-wrapper{
+	border-bottom: 3px solid #bd4cce;
+}
+.sport-wrapper{
+	border-bottom: 3px solid #dd5a5a;
+}
+.premium-wrapper{
+	border-bottom: 3px solid #289dcc;
+}
+.tech-wrapper{
+	border-bottom: 3px solid #777fce;
+}
+.travel-wrapper{
+	border-bottom: 3px solid #13306b;
+}
+/**
+	Categories 
+*/
+.cates, .sidebar{
+	margin-top: 20px;
+} 
+.cates a{
+	text-decoration: none;
+}
+.cate-left, .cate-right{
+	margin-top: 15px;
+}
+.cate-left{
+	box-shadow: 0 0 5px #ccc;
+}
+.cate-left .post{
+	padding: 0 15px 5px 15px;
+}
+.cate-left img{
+	margin-bottom: 18px;
+}
+.cate-left .content{
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+.cate-right .post-item{
+	width: 100%;
+	height: auto;
+	box-shadow: 0 0 5px #ddd;
+	margin-bottom: 15px;
+}
+.title-wrapper{
+	width: 100%;
+	height: 30px;
+}
+.cate-title{
+	padding: 6px 12px;
+	color: #fff;
+	font-size: 18px;
+}
+.thumnail-post{
+	width: 32.5%;
+	margin-right: 2%;
+	float: left;
+}
+.list-post{
+	width: 65.5%;
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+.title-post{
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: 400;
+}
