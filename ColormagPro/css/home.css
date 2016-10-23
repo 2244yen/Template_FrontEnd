@@ -132,10 +132,52 @@
 .slide p{
 	padding: 10px;
 }
-.sport, .fashion, .travel{
-	margin-top: 50px;
+.travel{
+	margin-top: 30px;
 }
-
+.politics, .fashion{
+	margin-top: 160px;
+}
+/**
+	Sport Slider
+*/
+#sport-slider{
+	width: 100%;
+	margin: 30px 0;
+}
+#sport-slider li{
+	width: 100%;
+	position: relative;
+}
+#sport-slider li .sport-sider-detail{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+}
+#sport-slider li .sport-sider-detail h3{    
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+#sport-slider li .sport-sider-detail a{
+	color: #fff;
+}
+.bx-wrapper .bx-pager{
+    bottom: -180px;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.bx-wrapper img{
+	width: 100%;
+}
+.bx-wrapper .bx-pager .bx-pager-item{
+	width: 20%;
+}
+.bx-wrapper .bx-pager .bx-pager-item img{
+	width: 98%;
+}
 /**
 	Sidebar
 */
@@ -145,8 +187,12 @@
 .premium-wrapper{
 	margin-top: 35px;
 }
-.sidebar .list-post h3{
+.sidebar .post-item h3{
 	font-size: 14px !important;
+	padding-left: 10px;
+}
+.sidebar .post-item .info-post{
+	padding-left: 10px;
 }
 .sidebar .list-theme, .sidebar .list-ad{
 	list-style: none;
@@ -181,6 +227,42 @@
 	padding-bottom: 5px;
 }
 /**
+	Youtube	
+*/
+.youtube{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/**
+	Breaking News
+*/
+#breaking-wrapper{
+	box-shadow: 0 0 5px #eee;
+	margin-bottom: 40px;
+}
+#breaking-wrapper .post-item{
+	box-shadow: none;
+}
+#breaking-wrapper .post-item .title-post{
+	margin-top: 0;
+}
+#breaking-news{
+	list-style: none;
+	width: 100%;
+	margin: 10px 0;
+	padding-left: 0;
+}
+#breaking-news .title-post{
+	font-size: 14px;
+} 
+#btn-prev, #btn-next{
+	text-align: center;
+	font-size: 18px;
+	color: #289dcc;
+	display: block;
+	padding: 10px 0;
+}
+/**
 	Tabs
 */
 .sidebar-tabs{
@@ -189,7 +271,7 @@
 }
 .sidebar-tabs li a{
 	text-align: center;
-	padding: 8px 10.5px;
+	padding: 8.6px;
 	margin-right: 0;
     border-radius: 0;
     color: #fff;

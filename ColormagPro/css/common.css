@@ -4,7 +4,6 @@
 .date-detail, .comment-detail{
 	font-size: 11px;
 	margin-right: 10px;
-	color: #888;
 }
 .info-post:last-child{
 	margin-right: 0;
@@ -30,7 +29,7 @@ a:hover{
 	-----Color and wrapper in cates
 */
 .health-color{
-	background-color: #81d742;
+	background-color: #ff3a3a;
 }
 .food-color{
 	background-color: #a3d886;
@@ -44,8 +43,8 @@ a:hover{
 .fashion-color{
 	background-color: #bd4cce;
 }
-.sport-color{
-	background-color: #dd5a5a;
+.adventure-color{
+	background-color: #206b4d;
 }
 .female-color{
 	background-color: #d8a0c2;
@@ -62,13 +61,16 @@ a:hover{
 .tech-color{
 	background-color: #777fce;
 }
+.cycling-color{
+	background-color: #ffc423;
+}
+.football-color{
+	background-color: #420515;
+}
 .gadgets-color{
 	background-color: #82ada1;
 }
 .latest-color{
-	background-color: #e5e220;
-}
-.general-color{
 	background-color: #e5e220;
 }
 .research-color{
@@ -80,10 +82,19 @@ a:hover{
 .travel-color{
 	background-color: #13306b;
 }
+.politics-color{
+	background-color: #81d742;
+}
+.meeting-color{
+	background-color: #efb837;
+}
+.gov-color{
+	background-color: #919191;
+}
 /***------------***/
 
 .health-wrapper{
-	border-bottom: 3px solid #81d742;
+	border-bottom: 3px solid #ff3a3a;
 }
 .news-wrapper{
 	border-bottom: 3px solid #a38a6d;
@@ -91,10 +102,10 @@ a:hover{
 .fashion-wrapper{
 	border-bottom: 3px solid #bd4cce;
 }
-.sport-wrapper{
-	border-bottom: 3px solid #dd5a5a;
-}
 .premium-wrapper{
+	border-bottom: 3px solid #289dcc;
+}
+.sidebar-wrapper{
 	border-bottom: 3px solid #289dcc;
 }
 .tech-wrapper{
@@ -102,6 +113,12 @@ a:hover{
 }
 .travel-wrapper{
 	border-bottom: 3px solid #13306b;
+}
+.politics-wrapper{
+	border-bottom: 3px solid #81d742;
+}
+.meeting-wrapper{
+	border-bottom: 3px solid #efb837;
 }
 /**
 	Categories 
@@ -133,6 +150,8 @@ a:hover{
 	height: auto;
 	box-shadow: 0 0 5px #ddd;
 	margin-bottom: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 .title-wrapper{
 	width: 100%;
@@ -158,4 +177,8 @@ a:hover{
 	font-size: 18px;
 	margin-top: 10px;
 	font-weight: 400;
+}
+.info-post a,
+.info-post i{
+	color: #888 !important;
 }

@@ -19,8 +19,16 @@ and open the template in the editor.
 	 * Index
 	 */
     .color-container{
-        width: 96%;
+        width: 98%;
         margin: 0 auto;
+    }
+    .tags .label{
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+    .tags span{
+        margin-bottom: 5px !important;
+        display: inline-block;
     }
     .sidebar img {
         margin-bottom: 0;
@@ -69,15 +77,11 @@ and open the template in the editor.
     .list-post{
         width: 40%;
     }
-    #sidebar-post .cmt{
-        display: none;
+    .title-post{
+        font-size: 15px;
     }
-    #sidebar-post .thumnail-post{
-        width: 100%;
-    }
-    #sidebar-post .list-post{
-        width: 100%;
-        padding: 5px;
+    #breaking-news .thumnail-post{
+        width: 70%;
     }
     #tabs-right #pop .thumnail-post,
     #tabs-right #recent .thumnail-post{

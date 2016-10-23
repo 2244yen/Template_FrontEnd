@@ -31,6 +31,24 @@ $(function () {
         nextText: '<i class="fa fa-angle-right right-slider" aria-hidden="true"></i>'
     });
 
+    $("#sport-slider").bxSlider({
+
+         buildPager: function(slideIndex){
+            switch(slideIndex){
+                case 0:
+                return '<img src="images/sports/thumbs/pommel-horse-150x150.jpg">';
+                case 1:
+                return '<img src="images/sports/thumbs/utah-150x150.jpg">';
+                case 2:
+                return '<img src="images/sports/thumbs/the-ball-150x150.jpg">';
+                case 3:
+                return '<img src="images/sports/thumbs/triumph-rocket-150x150.jpg">';
+                case 4: 
+                return '<img src="images/sports/thumbs/runner-150x150.jpg">';
+            }
+        }
+    });
+
     var d = new Date();
     var day = d.getDay();
     var date = d.getDate();
@@ -44,4 +62,12 @@ $(function () {
 
     $('#sticker').vTicker();
     $().UItoTop({ easingType: 'easeOutQuart' });
+    $('#breaking-news').newsTicker({
+        max_rows: 3,
+        row_height: 100,
+        duration: 4000,
+        autostart: 1,
+        prevButton: $("#btn-prev"),
+        nextButton: $("#btn-next"),
+    });
 });
