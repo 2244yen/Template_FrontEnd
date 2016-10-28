@@ -43,6 +43,9 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 60px;
 	margin-top: 0;
 }
+.sub-title {
+	font-size: 24px;
+}
 .hr-title{
 	border-bottom: 6px double #ff6b53;
 	width: 100px;
@@ -151,211 +154,67 @@ h1, h2, h3, h4, h5 {
 	padding: 20px 15px;
 }
 /**
-	----------------Main content---------------
+-------Footer-------
 */
-/*----Our services----*/
-.services {
+footer {
 	width: 100%;
 	height: auto;
-	margin-top: 0;
-	padding: 80px 0;
-	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	background-color: #222; 
 }
-.services .services-wrapper {
-	padding-bottom: 80px;
+footer a {
+	color: #aaa;
 }
-.services .service-item {
-	height: auto;
-	text-align: center;
-	padding: 30px;
+footer a:hover {
+	color: #ff6b53;
 }
-.service-item .service-icon {
-	font-size: 45px;
-	color: #fff;
-	line-height: 70px;
-	text-align: center;
-	height: 70px;
-	width: 70px;
-	border-radius: 50%;
-	background-color: #ff6b53; 
-	text-align: center;
-	margin: 0 auto;
+.top-footer {
+	padding: 50px 0;
 }
-.service-item .sub-title {
-	color: #ff6b53; 
+.footer-title {
+	border-bottom: 4px double #3A3A3A;
+	padding-bottom: 15px;
+	color: #e4e4e4;
 	font-size: 24px;
-	margin: 15px auto;
 }
-.service-item p {
-	text-align: left;
-	margin: 0 auto;
+.footer-content {
+	padding-top: 10px;
 }
-.banner-ad {
-	width: 100%;
-	min-height: 300px;	
+.footer-content i {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	font-size: 11px;
+}
+.footer-content ul {
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	position: relative;
-	overflow: hidden;
 }
-.banner-ad-wrapper {
-	background: url(../images/new-york-city-556848_1280.jpg) center top no-repeat fixed;
-	background-size: cover;
-	text-align: center;
-	padding: 80px 0;
-	width: 100%;
-	height: 300px;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.banner-ad-wrapper .banner-content {
-	font-size: 30px;
-	color: #f7f7f7;
-	margin-bottom: 60px;
-	padding: 0 15px;
-	z-index: 999;
-}
-/*---Our Client---*/
-.clients {	
-	width: 100%;
-	height: auto;
-	background-color: #fff;
-	text-align: center;
-	margin-top: 0;
-	padding-bottom: 80px;
-}
-.slick-slide {
-    margin: 0px 40px;
-}
-.slick-slide img {
-	margin: 0 auto;
-}
-.slick-prev, .slick-next {
-	color: #ff6b53;
-	font-size: 24px;
-	opacity: 0.8;
-	top: 10px;
-}
-.slick-prev:hover, .slick-prev:focus,
-.slick-next:hover, .slick-next:focus {
-	color: #ff6b53;
-	opacity: 1 !important;
-}
-.clients-say {
-	padding: 80px 0;
-	background-color: #e7e7e7;
-	box-shadow: transparent !important;
-	height: auto;
-	width: 100%;
-}
-.clients-say .popover {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	border: none;
-	background-color: #f5f5f5;
-	border-radius: 10px;
-	box-shadow: transparent !important;
-	margin: 0 5%;
-	position: absolute;
-	top: 0;
-}
-.clients-say .popover>.arrow {
-	border-width: 25px;
-	bottom: -25px;
-    left: 10%;
-    border-top-color: #f5f5f5;
-    border-bottom-width: 5px;
-}
-.clients-say .popover.top>.arrow:after {
-	border-top-color: #f5f5f5;
-}
-.clients-say .popover .popover-content {
-	padding: 30px;
-}
-.clients-say .client-wrapper {
-	margin-top: 50px;
-	width: 50%;
-	min-height: 270px;
-	height: auto;
+.footer-content li:before {
+	content: "\f192";
+	font-family: FontAwesome;
+	top: -3px;
+	margin-right: 10px;
+	font-size: 11px;
 	position: relative;
 }
-.client-wrapper .client-info {
-	position: absolute;
-	width: 100%;
-	height: auto;
-	bottom: 10px;
-	left: 50px;
-}
-.client-wrapper .client-info img {
-	border-radius: 10px;
-	float: left;
-	width: 20%;
-	margin-right: 3%;
-}
-.client-wrapper .client-info .client-name {
-	font-size: 18px;
-}
-.client-wrapper .client-info .client-job {
-	font-size: 14px;
-	font-style: italic;
+.info-name {
+	margin: 0 8px;
 	font-family: RobotoBold;
+	color: #fff;
 }
-/*-----Our Employees-----*/
-.employees {
-	padding: 80px 0;
-	width: 100%;
-	height: auto;
-	background-color: #fff;
+.bottom-footer {
+	border-top: 1px solid #3A3A3A;
+	padding: 30px 0;
 }
-.employee-item {
-	padding: 30px;
-}
-.employee-item img {
-	border-radius: 50px;
-}
-.employee-name {
-	font-size: 24px;
-	padding: 15px 0;
-	text-align: center;
-}
-.employee-job {
-	font-size: 18px;
-	text-align: center;
-	display: block;
-	color: #727272;
-	font-family: Roboto;
-	margin-bottom: 15px;
-}
-.employee-content {
-	padding: 15px 0;
-	border-bottom: 1px solid #f3f3f3;
-	border-top: 1px solid #f3f3f3;
-}
-.social-icon {
-	margin: 0 auto;
-	text-align: center;
-}
-.social-icon a {
-	color: #727272;
-	font-size: 24px;
-	margin-right: 25px;
-}
-.social-icon a:hover {
-	color: #ff6b53;
-}
-/*---------We're everywhere--------*/
-.contacts {
-	padding: 80px 0;
-	width: 100%;
-	height: auto;
-}
-.contact-icon {
-	text-align: center;
-}
-.contact-icon a {
-	font-size: 60px;
-	color: #ff6b53;
-	margin-right: 25px;
+.bottom-footer a:hover {
+	text-decoration: underline !important;
+	color: #fff;
 }

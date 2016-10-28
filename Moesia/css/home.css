@@ -1,0 +1,402 @@
+/**
+	----------------Main content---------------
+*/
+/*----Our services----*/
+.services {
+	width: 100%;
+	height: auto;
+	margin-top: 0;
+	padding: 80px 0;
+	background-color: #fff;
+}
+.services .services-wrapper {
+	padding-bottom: 80px;
+}
+.services .service-item {
+	height: auto;
+	text-align: center;
+	padding: 30px;
+}
+.service-item .service-icon {
+	font-size: 45px;
+	color: #fff;
+	line-height: 70px;
+	text-align: center;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: #ff6b53; 
+	text-align: center;
+	margin: 0 auto;
+}
+.service-item .sub-title {
+	color: #ff6b53; 
+	font-size: 24px;
+	margin: 15px auto;
+}
+.service-item p {
+	text-align: left;
+	margin: 0 auto;
+}
+.banner-ad {
+	width: 100%;
+	min-height: 300px;	
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+.banner-ad-wrapper {
+	background: url(../images/new-york-city-556848_1280.jpg) center top no-repeat fixed;
+	background-size: cover;
+	text-align: center;
+	padding: 80px 0;
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-ad-wrapper .banner-content {
+	font-size: 30px;
+	color: #f7f7f7;
+	margin-bottom: 60px;
+	padding: 0 15px;
+	z-index: 999;
+}
+/*---Our Client---*/
+.clients {	
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 80px;
+}
+.slick-slide {
+    margin: 0px 40px;
+}
+.slick-slide img {
+	margin: 0 auto;
+}
+.slick-prev, .slick-next {
+	color: #ff6b53;
+	font-size: 24px;
+	opacity: 0.8;
+	top: 10px;
+}
+.slick-prev:hover, .slick-prev:focus,
+.slick-next:hover, .slick-next:focus {
+	color: #ff6b53;
+	opacity: 1 !important;
+}
+.clients-say {
+	padding: 80px 0;
+	background-color: #e7e7e7;
+	box-shadow: transparent !important;
+	height: auto;
+	width: 100%;
+}
+.clients-say .popover {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: none;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	box-shadow: transparent !important;
+	margin: 0 5%;
+	position: absolute;
+	top: 0;
+}
+.clients-say .popover>.arrow {
+	border-width: 25px;
+	bottom: -25px;
+    left: 10%;
+    border-top-color: #f5f5f5;
+    border-bottom-width: 5px;
+}
+.clients-say .popover.top>.arrow:after {
+	border-top-color: #f5f5f5;
+}
+.clients-say .popover .popover-content {
+	padding: 30px;
+}
+.clients-say .client-wrapper {
+	margin-top: 50px;
+	width: 50%;
+	min-height: 270px;
+	height: auto;
+	position: relative;
+}
+.client-wrapper .client-info {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	bottom: 10px;
+	left: 50px;
+}
+.client-wrapper .client-info img {
+	border-radius: 10px;
+	float: left;
+	width: 20%;
+	margin-right: 3%;
+}
+.client-wrapper .client-info .client-name {
+	font-size: 18px;
+}
+.client-wrapper .client-info .client-job {
+	font-size: 14px;
+	font-style: italic;
+	font-family: RobotoBold;
+}
+/*-----Our Employees-----*/
+.employees {
+	padding: 80px 0;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.employee-item {
+	padding: 30px;
+}
+.employee-item img {
+	border-radius: 50px;
+}
+.employee-name {
+	font-size: 24px;
+	padding: 15px 0;
+	text-align: center;
+}
+.employee-job {
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	color: #727272;
+	font-family: Roboto;
+	margin-bottom: 15px;
+}
+.employee-content {
+	padding: 15px 0;
+	border-bottom: 1px solid #f3f3f3;
+	border-top: 1px solid #f3f3f3;
+}
+.social-icon {
+	margin: 0 auto;
+	text-align: center;
+}
+.social-icon a {
+	color: #727272;
+	font-size: 24px;
+	margin-right: 25px;
+}
+.social-icon a:hover {
+	color: #ff6b53;
+}
+/*---------We're everywhere--------*/
+.contacts {
+	width: 100%;
+	min-height: 360px;
+	position: relative;
+}
+.contact-icon {
+	text-align: center;
+}
+.contact-icon a {
+	font-size: 70px;
+	color: #ff6b53;
+	margin-right: 35px;
+}
+.contact-info {
+	width: 100%;
+	height: 340px;
+	background: url(../images/internet-295264.png) center top no-repeat fixed;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 80px 0;
+}
+.contact-info .title {
+	margin-bottom: 0;
+}
+/*----Latest news-----*/
+.news {
+	margin: 0;
+	padding: 80px 0;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ddd;
+}
+.news-item .img-wrapper{
+	/*border: 1px solid #ddd; 
+	background-color: #fff;*/
+}
+.news-item img {
+	padding: 3px;
+	border: 4px double #ddd;
+	transition: all 0.3s;
+}
+.news-item img:hover {
+	opacity: 0.7;
+}
+.news-item .news-title {
+	padding:15px 0;
+	text-align: center;
+}
+.news-item a {
+	color: #444;
+	transition: all 0.3s;
+}
+.news-item a:hover {
+	color: #ff6b53;
+}
+.news-btn {
+	display: table;
+	padding: 10px;
+	color: #444;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	font-size: 16px;
+	font-family: RobotoBold;
+	text-align: center;
+	transition: all 0.3s;
+	margin: 50px auto 0;
+}  
+.news-btn:hover {
+	box-shadow: 0 0 3px #444;
+	color: #444;
+}
+/*----Our projects----*/
+.projects {
+	padding: 80px 0;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ddd;
+}
+.project-item {
+	margin-bottom: 30px;
+	height: auto;
+	position: relative;
+}
+.project-item img {
+	width: 100%;
+	transition: all 0.5s cubic-bezier(0,.16,.64,1.64) ;
+}
+.project-item .bg-fade {
+	position: absolute;
+	background-color: #ff6b53;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.icon-left, .icon-right {
+	font-size: 42px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #222;
+	color: #ff6b53;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	text-align: center;
+}
+.icon-left {
+	left: 20px;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.icon-right {
+	right: 20px;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.project-item:hover .bg-fade {
+	opacity: 0.6;
+}
+.project-item:hover .icon-left {
+	opacity: 1;
+	left: 50px;
+}
+.project-item:hover .icon-right {
+	opacity: 1;
+	right: 50px;
+}
+/*------Our facts-------*/
+.facts {
+	padding: 80px 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.facts .number {
+	color: #ff6b53;
+	font-size: 50px;
+	border-bottom: 1px solid #ccc;
+}
+/*-------Our Skills------*/
+.skills {
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+	background-color: #ffeadb;
+}
+.skill-des {
+	padding-right: 30px;
+}
+.skill-analysist {
+	border-left: 1px solid #ddd;
+}
+.skill-name {
+	float: left;
+	width: 15%;
+	margin-right: 2%;
+}
+.skills .progress {
+	background: transparent;
+	background-image: none !important;
+	border: none;
+	box-shadow: none;
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	float: left;
+	width: 83%;
+}
+.skills .progress-bar {
+	background-color: #ff6b53 !important;
+	background-image: none;
+	box-shadow: none;
+	line-height: 25px;
+}
+/*------Manager-----*/
+.manager {
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+	background-color: #fff;
+}
+.manager-quote {
+	width: 50%;
+	height: auto;
+}
+.icon-quote {
+	color: #ff6b53;
+	font-size: 32px;
+	padding-right: 15px;
+	line-height: 1.5;
+	float: left;
+	width: 10%;
+}
+.manage-content {
+	font-size: 18px;
+	margin-bottom: 60px;
+	padding: 10px 20px;
+} 
+.manager-name {
+	margin-left: 20px;
+}

@@ -60,11 +60,20 @@ and open the template in the editor.
     .banner-ad-wrapper .banner-content {
         font-size: 22px;
     }
+    .title {
+        font-size: 40px;
+    }
     .slick-slide {
         margin: 0px 50px;
     }   
     .clients-say .client-wrapper {
        width: 100%;
+    }
+    .manager-quote {
+        width: 100%;
+    }
+    .news-item img {
+        margin: 0 auto;
     }
 }
 
@@ -88,8 +97,17 @@ and open the template in the editor.
     .slick-slide img {
         width: 100%;
     }
+    .title {
+        font-size: 40px;
+    }
     .clients-say .client-wrapper {
        width: 100% !important;
        min-height: 300px;
+    }
+    .manager-quote {
+        width: 100%;
+    }
+    .news-item img {
+        margin: 0 auto;
     }
 }
