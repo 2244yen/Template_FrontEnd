@@ -1,0 +1,80 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ColorMag</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap.offcanvas.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body> 
+        <div id="page">
+            <div id="container"> <!--data-50p="" tạo thời gian dừng khi chuyển slides-->
+                <div id="slides" 
+                    data-0="transform:translate(0%,0%);"
+                    data-50p="" 
+                    data-150p="transform:translate(0%,-50%);"
+                    data-200p=""
+                    data-300p="transform:translate(-50%,-50%);"
+                    data-350p=""
+                    data-450p="transform:translate(-50%,0%);"
+                >
+                    <div id="slide-1" class="slide overlay">
+                        <div class="caption"> 
+                            <h1>Slide 1</h1>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div id="slide-2" class="slide overlay">
+                        <div class="caption"> 
+                            <h1>Slide 2</h1>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div id="slide-3" class="slide">
+                        <div class="caption"> 
+                            <h1>Slide 3</h1>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                    <div id="slide-4" class="slide">
+                        <div class="caption"> 
+                            <h1>Slide 4</h1>
+                            <p>Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="helper"> 
+                <div class="marker green"></div>
+                <div class="marker red"></div>
+                <div class="marker blue"></div>
+                <div class="marker yellow"></div>
+            </div>
+        </div>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/bootstrap.offcanvas.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/skrollr.min.js"></script>
+        <script type="text/javascript">
+            var s = skrollr.init();
+        </script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
